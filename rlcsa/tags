@@ -1,0 +1,1094 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADAPTIVE_SAMPLES_H	adaptive_samples.h	2;"	d
+ALPHABET_H	alphabet.h	2;"	d
+ARRAY_EXTENSION	rlcsa.h	/^const std::string ARRAY_EXTENSION = ".rlcsa.array";$/;"	m	namespace:CSA
+AdaptiveSamples	adaptive_samples.cpp	/^AdaptiveSamples::AdaptiveSamples(const RLCSA& rlcsa, const std::string& base_name) :$/;"	f	class:CSA::AdaptiveSamples
+AdaptiveSamples	adaptive_samples.h	/^class AdaptiveSamples$/;"	c	namespace:CSA
+Alphabet	alphabet.cpp	/^Alphabet::Alphabet(FILE* file) :$/;"	f	class:CSA::Alphabet
+Alphabet	alphabet.cpp	/^Alphabet::Alphabet(const usint* counts) :$/;"	f	class:CSA::Alphabet
+Alphabet	alphabet.cpp	/^Alphabet::Alphabet(std::ifstream& file) :$/;"	f	class:CSA::Alphabet
+Alphabet	alphabet.h	/^class Alphabet$/;"	c	namespace:CSA
+Array	bits/array.cpp	/^Array::Array(Encoder& encoder) :$/;"	f	class:CSA::Array
+Array	bits/array.cpp	/^Array::Array(FILE* file) :$/;"	f	class:CSA::Array
+Array	bits/array.cpp	/^Array::Array(std::ifstream& file) :$/;"	f	class:CSA::Array
+Array	bits/array.h	/^class Array$/;"	c	namespace:CSA
+ArrayEncoder	bits/array.cpp	/^ArrayEncoder::ArrayEncoder(usint block_bytes, usint superblock_size) :$/;"	f	class:CSA::ArrayEncoder
+ArrayEncoder	bits/array.h	/^class ArrayEncoder$/;"	c	namespace:CSA
+BITBUFFER_H	bits/bitbuffer.h	2;"	d
+BITS_TO_BYTES	misc/definitions.h	85;"	d
+BITS_TO_WORDS	misc/definitions.h	87;"	d
+BITVECTOR_H	bits/bitvector.h	2;"	d
+BLOCK_BLOCK_SIZE	docarray.h	/^    const static usint BLOCK_BLOCK_SIZE = 32;$/;"	m	class:CSA::DocArray
+BYTES_TO_WORDS	misc/definitions.h	86;"	d
+BitVector	bits/bitvector.cpp	/^BitVector::BitVector() :$/;"	f	class:CSA::BitVector
+BitVector	bits/bitvector.cpp	/^BitVector::BitVector(FILE* file) :$/;"	f	class:CSA::BitVector
+BitVector	bits/bitvector.cpp	/^BitVector::BitVector(VectorEncoder& encoder, usint universe_size) :$/;"	f	class:CSA::BitVector
+BitVector	bits/bitvector.cpp	/^BitVector::BitVector(std::ifstream& file) :$/;"	f	class:CSA::BitVector
+BitVector	bits/bitvector.h	/^class BitVector$/;"	c	namespace:CSA
+CANDIDATE_SAMPLES	adaptive_samples.h	/^const parameter_type CANDIDATE_SAMPLES   = parameter_type("CANDIDATE_SAMPLES", 0);$/;"	m	namespace:CSA
+CHARS	misc/definitions.h	/^const usint CHARS = ((usint)1 << CHAR_BIT);$/;"	m	namespace:CSA
+CONTEXT	rlcsa_grep.cpp	/^enum mode_type { COUNT, DISPLAY, CONTEXT };$/;"	e	enum:mode_type	file:
+COUNT	rlcsa_grep.cpp	/^enum mode_type { COUNT, DISPLAY, CONTEXT };$/;"	e	enum:mode_type	file:
+CSA	adaptive_samples.cpp	/^namespace CSA$/;"	n	file:
+CSA	adaptive_samples.h	/^namespace CSA$/;"	n
+CSA	alphabet.cpp	/^namespace CSA$/;"	n	file:
+CSA	alphabet.h	/^namespace CSA$/;"	n
+CSA	bits/array.cpp	/^namespace CSA$/;"	n	file:
+CSA	bits/array.h	/^namespace CSA$/;"	n
+CSA	bits/bitbuffer.cpp	/^namespace CSA$/;"	n	file:
+CSA	bits/bitbuffer.h	/^namespace CSA$/;"	n
+CSA	bits/bitvector.cpp	/^namespace CSA$/;"	n	file:
+CSA	bits/bitvector.h	/^namespace CSA$/;"	n
+CSA	bits/deltavector.cpp	/^namespace CSA$/;"	n	file:
+CSA	bits/deltavector.h	/^namespace CSA$/;"	n
+CSA	bits/multiarray.cpp	/^namespace CSA$/;"	n	file:
+CSA	bits/multiarray.h	/^namespace CSA$/;"	n
+CSA	bits/nibblevector.cpp	/^namespace CSA$/;"	n	file:
+CSA	bits/nibblevector.h	/^namespace CSA$/;"	n
+CSA	bits/rlevector.cpp	/^namespace CSA$/;"	n	file:
+CSA	bits/rlevector.h	/^namespace CSA$/;"	n
+CSA	bits/succinctvector.cpp	/^namespace CSA$/;"	n	file:
+CSA	bits/succinctvector.h	/^namespace CSA$/;"	n
+CSA	bits/vectors.h	/^namespace CSA$/;"	n
+CSA	docarray.cpp	/^namespace CSA$/;"	n	file:
+CSA	docarray.h	/^namespace CSA$/;"	n
+CSA	lcpsamples.cpp	/^namespace CSA$/;"	n	file:
+CSA	lcpsamples.h	/^namespace CSA$/;"	n
+CSA	misc/definitions.h	/^namespace CSA$/;"	n
+CSA	misc/parameters.cpp	/^namespace CSA$/;"	n	file:
+CSA	misc/parameters.h	/^namespace CSA$/;"	n
+CSA	misc/utils.cpp	/^namespace CSA$/;"	n	file:
+CSA	misc/utils.h	/^namespace CSA$/;"	n
+CSA	rlcsa.cpp	/^namespace CSA$/;"	n	file:
+CSA	rlcsa.h	/^namespace CSA$/;"	n
+CSA	rlcsa_builder.cpp	/^namespace CSA$/;"	n	file:
+CSA	rlcsa_builder.h	/^namespace CSA$/;"	n
+CSA	sampler.cpp	/^namespace CSA$/;"	n	file:
+CSA	sampler.h	/^namespace CSA$/;"	n
+CSA	sasamples.cpp	/^namespace CSA$/;"	n	file:
+CSA	sasamples.h	/^namespace CSA$/;"	n
+CSA	suffixarray.cpp	/^namespace CSA$/;"	n	file:
+CSA	suffixarray.h	/^namespace CSA$/;"	n
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -Wall -O3 $(SIZE_FLAGS) $(PARALLEL_FLAGS) $(VECTOR_FLAGS)$/;"	m
+DEFINITIONS_H	misc/definitions.h	2;"	d
+DELTAVECTOR_H	bits/deltavector.h	2;"	d
+DELTA_FLAG	bits/multiarray.h	/^    const static usint DELTA_FLAG = 0x01;$/;"	m	class:CSA::MultiArray
+DISPLAY	rlcsa_grep.cpp	/^enum mode_type { COUNT, DISPLAY, CONTEXT };$/;"	e	enum:mode_type	file:
+DOCUMENT_EXTENSION	rlcsa.h	/^const std::string DOCUMENT_EXTENSION = ".rlcsa.docs";$/;"	m	namespace:CSA
+DeltaEncoder	bits/deltavector.cpp	/^DeltaEncoder::DeltaEncoder(usint block_bytes, usint superblock_size) :$/;"	f	class:CSA::DeltaEncoder
+DeltaEncoder	bits/deltavector.h	/^class DeltaEncoder : public VectorEncoder$/;"	c	namespace:CSA
+DeltaMultiArray	bits/multiarray.cpp	/^DeltaMultiArray::DeltaMultiArray(FILE* file, usint flags) :$/;"	f	class:CSA::DeltaMultiArray
+DeltaMultiArray	bits/multiarray.cpp	/^DeltaMultiArray::DeltaMultiArray(std::ifstream& file, usint flags) :$/;"	f	class:CSA::DeltaMultiArray
+DeltaMultiArray	bits/multiarray.cpp	/^DeltaMultiArray::DeltaMultiArray(usint block_size) :$/;"	f	class:CSA::DeltaMultiArray
+DeltaMultiArray	bits/multiarray.h	/^class DeltaMultiArray : public MultiArray$/;"	c	namespace:CSA
+DeltaVector	bits/deltavector.cpp	/^DeltaVector::DeltaVector(Encoder& encoder, usint universe_size) :$/;"	f	class:CSA::DeltaVector
+DeltaVector	bits/deltavector.cpp	/^DeltaVector::DeltaVector(FILE* file) :$/;"	f	class:CSA::DeltaVector
+DeltaVector	bits/deltavector.cpp	/^DeltaVector::DeltaVector(std::ifstream& file) :$/;"	f	class:CSA::DeltaVector
+DeltaVector	bits/deltavector.h	/^class DeltaVector : public BitVector$/;"	c	namespace:CSA
+DocArray	docarray.cpp	/^DocArray::DocArray(STNode* root, const RLCSA& _rlcsa) :$/;"	f	class:CSA::DocArray
+DocArray	docarray.cpp	/^DocArray::DocArray(const RLCSA& _rlcsa) :$/;"	f	class:CSA::DocArray
+DocArray	docarray.cpp	/^DocArray::DocArray(const RLCSA& _rlcsa, const std::string& base_name, bool load_grammar) :$/;"	f	class:CSA::DocArray
+DocArray	docarray.h	/^class DocArray$/;"	c	namespace:CSA
+Document	utils/sort_wikipedia.cpp	/^struct Document$/;"	s	file:
+DocumentComparator	utils/sort_wikipedia.cpp	/^struct DocumentComparator$/;"	s	file:
+EMPTY_PAIR	misc/definitions.h	/^const pair_type EMPTY_PAIR = pair_type(1, 0);$/;"	m	namespace:CSA
+ENDPOINT_BLOCK_SIZE	rlcsa.h	/^    const static usint ENDPOINT_BLOCK_SIZE = 16;$/;"	m	class:CSA::RLCSA
+Encoder	bits/array.h	/^    typedef ArrayEncoder Encoder;$/;"	t	class:CSA::Array
+Encoder	bits/deltavector.h	/^    typedef DeltaEncoder Encoder;$/;"	t	class:CSA::DeltaVector
+Encoder	bits/nibblevector.h	/^    typedef NibbleEncoder Encoder;$/;"	t	class:CSA::NibbleVector
+Encoder	bits/rlevector.h	/^    typedef RLEEncoder Encoder;$/;"	t	class:CSA::RLEVector
+Encoder	bits/succinctvector.h	/^    typedef SuccinctEncoder Encoder;$/;"	t	class:CSA::SuccinctVector
+FixedMultiArray	bits/multiarray.cpp	/^FixedMultiArray::FixedMultiArray(FILE* file, usint flags) :$/;"	f	class:CSA::FixedMultiArray
+FixedMultiArray	bits/multiarray.cpp	/^FixedMultiArray::FixedMultiArray(std::ifstream& file, usint flags) :$/;"	f	class:CSA::FixedMultiArray
+FixedMultiArray	bits/multiarray.cpp	/^FixedMultiArray::FixedMultiArray(usint _items, usint bits) :$/;"	f	class:CSA::FixedMultiArray
+FixedMultiArray	bits/multiarray.h	/^class FixedMultiArray : public MultiArray$/;"	c	namespace:CSA
+GAP_ENCODING	bits/nibblevector.h	/^        static const usint GAP_ENCODING = 0;$/;"	m	class:CSA::NibbleVector::Iterator
+GET	misc/definitions.h	81;"	d
+GenericTriple	misc/utils.h	/^  GenericTriple() {}$/;"	f	struct:CSA::GenericTriple
+GenericTriple	misc/utils.h	/^  GenericTriple(T a, T b, T c) : first(a), second(b), third(c) {}$/;"	f	struct:CSA::GenericTriple
+GenericTriple	misc/utils.h	/^struct GenericTriple$/;"	s	namespace:CSA
+HALF_GREEDY_SAMPLES	adaptive_samples.h	/^const parameter_type HALF_GREEDY_SAMPLES = parameter_type("HALF_GREEDY_SAMPLES", 0);$/;"	m	namespace:CSA
+HIGHER	misc/definitions.h	83;"	d
+INDEX_BLOCK_SIZE	lcpsamples.h	/^    const static usint INDEX_BLOCK_SIZE = 32;$/;"	m	class:CSA::LCPSamples
+INDEX_BLOCK_SIZE	sasamples.h	/^    const static usint INDEX_BLOCK_SIZE = 32;$/;"	m	class:CSA::SASamples
+INDEX_RATE	bits/array.h	/^    const static usint INDEX_RATE = 5;$/;"	m	class:CSA::Array
+INDEX_RATE	bits/bitvector.h	/^    const static usint INDEX_RATE = 5;$/;"	m	class:CSA::BitVector
+INITIAL_ADJUSTMENT	sampler_test.cpp	/^const parameter_type INITIAL_ADJUSTMENT = parameter_type("INITIAL_ADJUSTMENT", 0);$/;"	v
+ITEM_BITS_MASK	bits/multiarray.h	/^    const static usint ITEM_BITS_MASK = 0x00FF0000;$/;"	m	class:CSA::MultiArray
+ITEM_BITS_SHIFT	bits/multiarray.h	/^    const static usint ITEM_BITS_SHIFT = 16;$/;"	m	class:CSA::MultiArray
+Iterator	bits/array.cpp	/^Array::Iterator::Iterator(const Array& par) :$/;"	f	class:CSA::Array::Iterator
+Iterator	bits/array.h	/^    class Iterator$/;"	c	class:CSA::Array
+Iterator	bits/bitvector.cpp	/^BitVector::Iterator::Iterator(const BitVector& par) :$/;"	f	class:CSA::BitVector::Iterator
+Iterator	bits/bitvector.h	/^    class Iterator$/;"	c	class:CSA::BitVector
+Iterator	bits/deltavector.cpp	/^DeltaVector::Iterator::Iterator(const DeltaVector& par) :$/;"	f	class:CSA::DeltaVector::Iterator
+Iterator	bits/deltavector.h	/^    class Iterator : public BitVector::Iterator$/;"	c	class:CSA::DeltaVector
+Iterator	bits/multiarray.cpp	/^DeltaMultiArray::Iterator::Iterator(const DeltaMultiArray& par) :$/;"	f	class:CSA::DeltaMultiArray::Iterator
+Iterator	bits/multiarray.cpp	/^FixedMultiArray::Iterator::Iterator(const FixedMultiArray& par) :$/;"	f	class:CSA::FixedMultiArray::Iterator
+Iterator	bits/multiarray.cpp	/^MultiArray::Iterator::Iterator(const MultiArray& par) :$/;"	f	class:CSA::MultiArray::Iterator
+Iterator	bits/multiarray.h	/^    class Iterator : public MultiArray::Iterator$/;"	c	class:CSA::DeltaMultiArray
+Iterator	bits/multiarray.h	/^    class Iterator : public MultiArray::Iterator$/;"	c	class:CSA::FixedMultiArray
+Iterator	bits/multiarray.h	/^    class Iterator$/;"	c	class:CSA::MultiArray
+Iterator	bits/nibblevector.cpp	/^NibbleVector::Iterator::Iterator(const NibbleVector& par) :$/;"	f	class:CSA::NibbleVector::Iterator
+Iterator	bits/nibblevector.h	/^    class Iterator : public BitVector::Iterator$/;"	c	class:CSA::NibbleVector
+Iterator	bits/rlevector.cpp	/^RLEVector::Iterator::Iterator(const RLEVector& par) :$/;"	f	class:CSA::RLEVector::Iterator
+Iterator	bits/rlevector.h	/^    class Iterator : public BitVector::Iterator$/;"	c	class:CSA::RLEVector
+Iterator	bits/succinctvector.cpp	/^SuccinctVector::Iterator::Iterator(const SuccinctVector& par) :$/;"	f	class:CSA::SuccinctVector::Iterator
+Iterator	bits/succinctvector.h	/^    class Iterator$/;"	c	class:CSA::SuccinctVector
+LCPSAMPLES_H	lcpsamples.h	2;"	d
+LCPSamples	lcpsamples.cpp	/^LCPSamples::LCPSamples(FILE* sample_file)$/;"	f	class:CSA::LCPSamples
+LCPSamples	lcpsamples.cpp	/^LCPSamples::LCPSamples(LCPVector::Encoder& index_encoder, ArrayEncoder& value_encoder, usint _size) :$/;"	f	class:CSA::LCPSamples
+LCPSamples	lcpsamples.cpp	/^LCPSamples::LCPSamples(pair_type* input, usint _size, usint _items, bool report, bool free_input) :$/;"	f	class:CSA::LCPSamples
+LCPSamples	lcpsamples.cpp	/^LCPSamples::LCPSamples(std::ifstream& sample_file)$/;"	f	class:CSA::LCPSamples
+LCPSamples	lcpsamples.h	/^class LCPSamples$/;"	c	namespace:CSA
+LCPVector	lcpsamples.h	/^typedef SuccinctVector LCPVector;$/;"	t	namespace:CSA
+LCP_SAMPLES_EXTENSION	rlcsa.h	/^const std::string LCP_SAMPLES_EXTENSION = ".lcp_samples";$/;"	m	namespace:CSA
+LF	rlcsa.cpp	/^RLCSA::LF(pair_type range, usint c) const$/;"	f	class:CSA::RLCSA
+LF	rlcsa.h	/^    inline usint LF(usint bwt_index, usint c, PsiVector::Iterator& iter) const$/;"	f	class:CSA::RLCSA
+LF	rlcsa.h	/^    inline usint LF(usint sa_index, usint c) const$/;"	f	class:CSA::RLCSA
+LOWER	misc/definitions.h	82;"	d
+MAX_THREADS	build_rlcsa.cpp	/^const int MAX_THREADS = 64;$/;"	v
+MAX_THREADS	extract_sequence.cpp	/^const int MAX_THREADS = 64;$/;"	v
+MAX_THREADS	parallel_build.cpp	/^const int MAX_THREADS = 64;$/;"	v
+MAX_THREADS	rlcsa_test.cpp	/^const int MAX_THREADS = 64;$/;"	v
+MAX_THREADS	ss_test.cpp	/^const int MAX_THREADS = 64;$/;"	v
+MEGABYTE	misc/definitions.h	/^const usint MEGABYTE = 1048576;$/;"	m	namespace:CSA
+MILLION	misc/definitions.h	/^const usint MILLION  = 1000000;$/;"	m	namespace:CSA
+MULTIARRAY_H	bits/multiarray.h	2;"	d
+MultiArray	bits/multiarray.cpp	/^MultiArray::MultiArray(FILE* file, usint flags) :$/;"	f	class:CSA::MultiArray
+MultiArray	bits/multiarray.cpp	/^MultiArray::MultiArray(std::ifstream& file, usint flags) :$/;"	f	class:CSA::MultiArray
+MultiArray	bits/multiarray.cpp	/^MultiArray::MultiArray(usint _items, usint _item_bits) :$/;"	f	class:CSA::MultiArray
+MultiArray	bits/multiarray.cpp	/^MultiArray::MultiArray(usint block_size) :$/;"	f	class:CSA::MultiArray
+MultiArray	bits/multiarray.h	/^class MultiArray$/;"	c	namespace:CSA
+NIBBLEVECTOR_H	bits/nibblevector.h	2;"	d
+NOT_READY	sampler.h	/^    const static uint NOT_READY = 0;$/;"	m	class:CSA::Sampler
+NibbleEncoder	bits/nibblevector.cpp	/^NibbleEncoder::NibbleEncoder(usint block_bytes, usint superblock_size) :$/;"	f	class:CSA::NibbleEncoder
+NibbleEncoder	bits/nibblevector.h	/^class NibbleEncoder : public VectorEncoder$/;"	c	namespace:CSA
+NibbleVector	bits/nibblevector.cpp	/^NibbleVector::NibbleVector(Encoder& encoder, usint universe_size) :$/;"	f	class:CSA::NibbleVector
+NibbleVector	bits/nibblevector.cpp	/^NibbleVector::NibbleVector(FILE* file) :$/;"	f	class:CSA::NibbleVector
+NibbleVector	bits/nibblevector.cpp	/^NibbleVector::NibbleVector(std::ifstream& file) :$/;"	f	class:CSA::NibbleVector
+NibbleVector	bits/nibblevector.h	/^class NibbleVector : public BitVector$/;"	c	namespace:CSA
+OBJS	Makefile	/^OBJS = rlcsa.o rlcsa_builder.o sasamples.o alphabet.o \\$/;"	m
+PARALLEL_FLAGS	Makefile	/^PARALLEL_FLAGS = -DMULTITHREAD_SUPPORT -D_GLIBCXX_PARALLEL -fopenmp$/;"	m
+PARALLEL_SORT_THRESHOLD	docarray.h	/^    const static usint PARALLEL_SORT_THRESHOLD = 4096;$/;"	m	class:CSA::DocArray
+PARAMETERS_EXTENSION	rlcsa.h	/^const std::string PARAMETERS_EXTENSION = ".rlcsa.parameters";$/;"	m	namespace:CSA
+PARAMETERS_H	misc/parameters.h	2;"	d
+PARENT_BLOCK_SIZE	docarray.h	/^    const static usint PARENT_BLOCK_SIZE = 32;$/;"	m	class:CSA::DocArray
+PLCPVector	rlcsa.h	/^typedef RLEVector PLCPVector;$/;"	t	namespace:CSA
+PLCPVector	rlcsa.h	/^typedef SuccinctVector PLCPVector;$/;"	t	namespace:CSA
+PLCP_EXTENSION	rlcsa.h	/^const std::string PLCP_EXTENSION = ".plcp";$/;"	m	namespace:CSA
+PROGRAMS	Makefile	/^PROGRAMS = rlcsa_test lcp_test parallel_build build_rlcsa build_sa locate_test \\$/;"	m
+PSI_EXTENSION	rlcsa.h	/^const std::string PSI_EXTENSION = ".psi";$/;"	m	namespace:CSA
+Parameters	misc/parameters.h	/^    Parameters() {};$/;"	f	class:CSA::Parameters
+Parameters	misc/parameters.h	/^class Parameters$/;"	c	namespace:CSA
+Pattern	rlcsa_test.cpp	/^  Pattern(const std::string& _pattern, bool ignore_tab, usint ignore) :$/;"	f	struct:Pattern
+Pattern	rlcsa_test.cpp	/^struct Pattern$/;"	s	file:
+PatternOccDoccComparator	rlcsa_test.cpp	/^struct PatternOccDoccComparator$/;"	s	file:
+PsiVector	rlcsa.h	/^typedef NibbleVector  PsiVector;$/;"	t	namespace:CSA
+PsiVector	rlcsa.h	/^typedef RLEVector     PsiVector;$/;"	t	namespace:CSA
+RANGE_BLOCK_SIZE	docarray.h	/^    const static usint RANGE_BLOCK_SIZE = 32;$/;"	m	class:CSA::DocArray
+READY	sampler.h	/^    const static uint READY = 1;$/;"	m	class:CSA::Sampler
+REVISION	utils/sort_wikipedia.cpp	/^const std::string REVISION = "<revision>";$/;"	v
+REVISION_END	utils/sort_wikipedia.cpp	/^const std::string REVISION_END = "<\/revision>";$/;"	v
+RLCSA	rlcsa.cpp	/^RLCSA::RLCSA(RLCSA& index, RLCSA& increment, usint* positions, usint block_size, usint threads) :$/;"	f	class:CSA::RLCSA
+RLCSA	rlcsa.cpp	/^RLCSA::RLCSA(const std::string& base_name, bool print) :$/;"	f	class:CSA::RLCSA
+RLCSA	rlcsa.cpp	/^RLCSA::RLCSA(uchar* data, usint bytes, usint block_size, usint sa_sample_rate, usint threads, Sampler* sampler, bool delete_data) :$/;"	f	class:CSA::RLCSA
+RLCSA	rlcsa.cpp	/^RLCSA::RLCSA(uchar* data, usint bytes, usint block_size, usint sa_sample_rate, usint threads, bool delete_data) :$/;"	f	class:CSA::RLCSA
+RLCSA	rlcsa.cpp	/^RLCSA::RLCSA(uchar* data, usint* ranks, usint bytes, usint block_size, usint sa_sample_rate, usint threads, bool delete_data) :$/;"	f	class:CSA::RLCSA
+RLCSA	rlcsa.h	/^class RLCSA$/;"	c	namespace:CSA
+RLCSABuilder	rlcsa_builder.cpp	/^RLCSABuilder::RLCSABuilder(usint _block_size, usint _sample_rate, usint _buffer_size, usint _threads) :$/;"	f	class:CSA::RLCSABuilder
+RLCSABuilder	rlcsa_builder.h	/^class RLCSABuilder$/;"	c	namespace:CSA
+RLCSA_BLOCK_SIZE	rlcsa.h	/^const parameter_type RLCSA_BLOCK_SIZE  = parameter_type("RLCSA_BLOCK_SIZE", 32);$/;"	m	namespace:CSA
+RLCSA_BUILDER_H	rlcsa_builder.h	2;"	d
+RLCSA_H	rlcsa.h	2;"	d
+RLEEncoder	bits/rlevector.cpp	/^RLEEncoder::RLEEncoder(usint block_bytes, usint superblock_size) :$/;"	f	class:CSA::RLEEncoder
+RLEEncoder	bits/rlevector.h	/^class RLEEncoder : public VectorEncoder$/;"	c	namespace:CSA
+RLEVECTOR_H	bits/rlevector.h	2;"	d
+RLEVector	bits/rlevector.cpp	/^RLEVector::RLEVector(Encoder& encoder, usint universe_size) :$/;"	f	class:CSA::RLEVector
+RLEVector	bits/rlevector.cpp	/^RLEVector::RLEVector(FILE* file) :$/;"	f	class:CSA::RLEVector
+RLEVector	bits/rlevector.cpp	/^RLEVector::RLEVector(std::ifstream& file) :$/;"	f	class:CSA::RLEVector
+RLEVector	bits/rlevector.h	/^class RLEVector : public BitVector$/;"	c	namespace:CSA
+RLE_FLAG	docarray.h	/^    const static usint RLE_FLAG = 0x01;$/;"	m	class:CSA::DocArray
+RLEncode	bits/rlevector.h	/^    inline void RLEncode(usint diff, usint len)$/;"	f	class:CSA::RLEEncoder
+RULE_BLOCK_SIZE	docarray.h	/^    const static usint RULE_BLOCK_SIZE = 32;$/;"	m	class:CSA::DocArray
+RUN_LENGTH_ENCODING	bits/nibblevector.h	/^        static const usint RUN_LENGTH_ENCODING = 1;$/;"	m	class:CSA::NibbleVector::Iterator
+ReadBuffer	bits/bitbuffer.cpp	/^ReadBuffer::ReadBuffer(FILE* file, usint _items, usint item_size) :$/;"	f	class:CSA::ReadBuffer
+ReadBuffer	bits/bitbuffer.cpp	/^ReadBuffer::ReadBuffer(FILE* file, usint words) :$/;"	f	class:CSA::ReadBuffer
+ReadBuffer	bits/bitbuffer.cpp	/^ReadBuffer::ReadBuffer(const ReadBuffer& original) :$/;"	f	class:CSA::ReadBuffer
+ReadBuffer	bits/bitbuffer.cpp	/^ReadBuffer::ReadBuffer(const usint* buffer, usint _items, usint item_size) :$/;"	f	class:CSA::ReadBuffer
+ReadBuffer	bits/bitbuffer.cpp	/^ReadBuffer::ReadBuffer(const usint* buffer, usint words) :$/;"	f	class:CSA::ReadBuffer
+ReadBuffer	bits/bitbuffer.cpp	/^ReadBuffer::ReadBuffer(std::ifstream& file, usint _items, usint item_size) :$/;"	f	class:CSA::ReadBuffer
+ReadBuffer	bits/bitbuffer.cpp	/^ReadBuffer::ReadBuffer(std::ifstream& file, usint words) :$/;"	f	class:CSA::ReadBuffer
+ReadBuffer	bits/bitbuffer.h	/^class ReadBuffer$/;"	c	namespace:CSA
+SAMPLED	sampler.h	/^    const static uint SAMPLED = 2;$/;"	m	class:CSA::Sampler
+SAMPLER_H	sampler.h	2;"	d
+SAMPLE_PROMOTE_RATE	adaptive_samples.h	/^const parameter_type SAMPLE_PROMOTE_RATE = parameter_type("SAMPLE_PROMOTE_RATE", 0);$/;"	m	namespace:CSA
+SAMPLE_RATE	rlcsa.h	/^const parameter_type SAMPLE_RATE       = parameter_type("SAMPLE_RATE", 128);$/;"	m	namespace:CSA
+SAMPLE_WINDOW_SIZE	adaptive_samples.h	/^const parameter_type SAMPLE_WINDOW_SIZE  = parameter_type("SAMPLE_WINDOW_SIZE", 65536);$/;"	m	namespace:CSA
+SASAMPLES_H	sasamples.h	2;"	d
+SASamples	sasamples.cpp	/^SASamples::SASamples(FILE* sample_file, usint sample_rate, bool _weighted) :$/;"	f	class:CSA::SASamples
+SASamples	sasamples.cpp	/^SASamples::SASamples(SASamples& index, SASamples& increment, usint* positions, usint number_of_positions, usint number_of_sequences) :$/;"	f	class:CSA::SASamples
+SASamples	sasamples.cpp	/^SASamples::SASamples(pair_type* sample_pairs, usint data_size, usint sample_rate, usint threads) :$/;"	f	class:CSA::SASamples
+SASamples	sasamples.cpp	/^SASamples::SASamples(short_pair* sa, DeltaVector* end_points, usint data_size, usint sample_rate, usint threads) :$/;"	f	class:CSA::SASamples
+SASamples	sasamples.cpp	/^SASamples::SASamples(short_pair* sa, Sampler* sampler, usint threads) :$/;"	f	class:CSA::SASamples
+SASamples	sasamples.cpp	/^SASamples::SASamples(std::ifstream& sample_file, usint sample_rate, bool _weighted) :$/;"	f	class:CSA::SASamples
+SASamples	sasamples.h	/^class SASamples$/;"	c	namespace:CSA
+SAVector	sasamples.h	/^typedef SuccinctVector SAVector;$/;"	t	namespace:CSA
+SA_EXTENSION	suffixarray.h	/^const std::string SA_EXTENSION = ".sa";$/;"	m	namespace:CSA
+SA_SAMPLES_EXTENSION	rlcsa.h	/^const std::string SA_SAMPLES_EXTENSION = ".rlcsa.sa_samples";$/;"	m	namespace:CSA
+SHORT_RANGE	bits/succinctvector.h	/^    const static usint SHORT_RANGE = 16;  \/\/ Should be at least 2.$/;"	m	class:CSA::SuccinctVector
+SIZE_FLAGS	Makefile	/^SIZE_FLAGS = -DMASSIVE_DATA_RLCSA$/;"	m
+SSKeyComparator	misc/utils.cpp	/^struct SSKeyComparator$/;"	s	namespace:CSA	file:
+SSSkewComparator	misc/utils.cpp	/^struct SSSkewComparator$/;"	s	namespace:CSA	file:
+STNode	docarray.cpp	/^STNode::STNode(uint lcp, pair_type sa_range) :$/;"	f	class:CSA::STNode
+STNode	docarray.h	/^struct STNode$/;"	s	namespace:CSA
+SUFFIXARRAY_H	suffixarray.h	2;"	d
+SUPERBLOCK_SIZE	bits/array.h	/^    const static usint SUPERBLOCK_SIZE = MEGABYTE;$/;"	m	class:CSA::ArrayEncoder
+SUPERBLOCK_SIZE	bits/bitvector.h	/^    const static usint SUPERBLOCK_SIZE = MEGABYTE;$/;"	m	class:CSA::VectorEncoder
+SUPPORT_DISPLAY	rlcsa.h	/^const parameter_type SUPPORT_DISPLAY   = parameter_type("SUPPORT_DISPLAY", 1);$/;"	m	namespace:CSA
+SUPPORT_LOCATE	rlcsa.h	/^const parameter_type SUPPORT_LOCATE    = parameter_type("SUPPORT_LOCATE", 1);$/;"	m	namespace:CSA
+Sampler	sampler.cpp	/^Sampler::Sampler(uint _size) :$/;"	f	class:CSA::Sampler
+Sampler	sampler.h	/^class Sampler$/;"	c	namespace:CSA
+SemiGreedySampler	sampler.cpp	/^SemiGreedySampler::SemiGreedySampler(weight_type* _weights, uint _size) :$/;"	f	class:CSA::SemiGreedySampler
+SemiGreedySampler	sampler.h	/^class SemiGreedySampler : public Sampler$/;"	c	namespace:CSA
+SuccinctEncoder	bits/succinctvector.cpp	/^SuccinctEncoder::SuccinctEncoder(usint block_bytes, usint superblock_size) :$/;"	f	class:CSA::SuccinctEncoder
+SuccinctEncoder	bits/succinctvector.h	/^class SuccinctEncoder : public VectorEncoder$/;"	c	namespace:CSA
+SuccinctVector	bits/succinctvector.cpp	/^SuccinctVector::SuccinctVector(Encoder& encoder) :$/;"	f	class:CSA::SuccinctVector
+SuccinctVector	bits/succinctvector.cpp	/^SuccinctVector::SuccinctVector(Encoder& encoder, usint universe_size) :$/;"	f	class:CSA::SuccinctVector
+SuccinctVector	bits/succinctvector.cpp	/^SuccinctVector::SuccinctVector(FILE* file) :$/;"	f	class:CSA::SuccinctVector
+SuccinctVector	bits/succinctvector.cpp	/^SuccinctVector::SuccinctVector(std::ifstream& file) :$/;"	f	class:CSA::SuccinctVector
+SuccinctVector	bits/succinctvector.h	/^class SuccinctVector : public BitVector$/;"	c	namespace:CSA
+SuffixArray	suffixarray.cpp	/^SuffixArray::SuffixArray(const std::string& base_name, bool print) :$/;"	f	class:CSA::SuffixArray
+SuffixArray	suffixarray.cpp	/^SuffixArray::SuffixArray(uchar* _data, uint bytes, uint threads) :$/;"	f	class:CSA::SuffixArray
+SuffixArray	suffixarray.cpp	/^SuffixArray::SuffixArray(uchar* _data, usint* ra, uint bytes, uint threads) :$/;"	f	class:CSA::SuffixArray
+SuffixArray	suffixarray.h	/^class SuffixArray$/;"	c	namespace:CSA
+TIMESTAMP	utils/sort_wikipedia.cpp	/^const std::string TIMESTAMP = "<timestamp>";$/;"	v
+TIMESTAMP_END	utils/sort_wikipedia.cpp	/^const std::string TIMESTAMP_END = "<\/timestamp>";$/;"	v
+Triple	misc/utils.h	/^typedef GenericTriple<usint> Triple;$/;"	t	namespace:CSA
+VALUE_BLOCK_SIZE	lcpsamples.h	/^    const static usint VALUE_BLOCK_SIZE = 32;$/;"	m	class:CSA::LCPSamples
+VECTORS_H	bits/vectors.h	2;"	d
+VECTOR_BLOCK_SIZE	bits/multiarray.h	/^    const static usint VECTOR_BLOCK_SIZE = 32;$/;"	m	class:CSA::MultiArray
+VECTOR_BLOCK_SIZE	sampler.h	/^    const static usint VECTOR_BLOCK_SIZE = 64;$/;"	m	class:CSA::WeightedSampler
+VECTOR_FLAGS	Makefile	/^VECTOR_FLAGS = $(PSI_FLAGS) $(LCP_FLAGS) $(SA_FLAGS)$/;"	m
+VPATH	Makefile	/^VPATH = bits:misc:utils$/;"	m
+VectorEncoder	bits/bitvector.cpp	/^VectorEncoder::VectorEncoder(usint block_bytes, usint superblock_size, bool _use_small_blocks) :$/;"	f	class:CSA::VectorEncoder
+VectorEncoder	bits/bitvector.h	/^class VectorEncoder$/;"	c	namespace:CSA
+WEIGHTED_SAMPLES	rlcsa.h	/^const parameter_type WEIGHTED_SAMPLES  = parameter_type("WEIGHTED_SAMPLES", 0);$/;"	m	namespace:CSA
+WORD_BITS	misc/definitions.h	/^const usint WORD_BITS = CHAR_BIT * sizeof(usint);$/;"	m	namespace:CSA
+WORD_MAX	misc/definitions.h	/^const usint WORD_MAX = ~((usint)0);$/;"	m	namespace:CSA
+WeightedSampler	sampler.cpp	/^WeightedSampler::WeightedSampler(weight_type* weights, uint _size, bool _use_psi) :$/;"	f	class:CSA::WeightedSampler
+WeightedSampler	sampler.h	/^class WeightedSampler : public Sampler$/;"	c	namespace:CSA
+WriteBuffer	bits/bitbuffer.cpp	/^WriteBuffer::WriteBuffer(usint _items, usint item_size) :$/;"	f	class:CSA::WriteBuffer
+WriteBuffer	bits/bitbuffer.cpp	/^WriteBuffer::WriteBuffer(usint words) :$/;"	f	class:CSA::WriteBuffer
+WriteBuffer	bits/bitbuffer.cpp	/^WriteBuffer::WriteBuffer(usint* buffer, usint _items, usint item_size) :$/;"	f	class:CSA::WriteBuffer
+WriteBuffer	bits/bitbuffer.cpp	/^WriteBuffer::WriteBuffer(usint* buffer, usint words) :$/;"	f	class:CSA::WriteBuffer
+WriteBuffer	bits/bitbuffer.h	/^class WriteBuffer$/;"	c	namespace:CSA
+_RLCSA_ARRAY_H	bits/array.h	2;"	d
+_RLCSA_DOCARRAY_H	docarray.h	2;"	d
+_RLCSA_SUCCINCTVECTOR_H	bits/succinctvector.h	2;"	d
+_RLCSA_UTILS_H	misc/utils.h	2;"	d
+addBit	bits/deltavector.cpp	/^DeltaEncoder::addBit(usint value)$/;"	f	class:CSA::DeltaEncoder
+addBit	bits/nibblevector.cpp	/^NibbleEncoder::addBit(usint value)$/;"	f	class:CSA::NibbleEncoder
+addBit	bits/rlevector.cpp	/^RLEEncoder::addBit(usint value)$/;"	f	class:CSA::RLEEncoder
+addBit	bits/succinctvector.cpp	/^SuccinctEncoder::addBit(usint value)$/;"	f	class:CSA::SuccinctEncoder
+addBlocks	docarray.h	/^    addBlocks(usint first, usint number, std::vector<T>& result) const$/;"	f	class:CSA::DocArray
+addCandidate	adaptive_samples.cpp	/^AdaptiveSamples::addCandidate(sample_type sample)$/;"	f	class:CSA::AdaptiveSamples
+addChild	docarray.cpp	/^STNode::addChild(STNode* node)$/;"	f	class:CSA::STNode
+addCollection	rlcsa_builder.cpp	/^RLCSABuilder::addCollection(uchar* sequence, usint length, bool delete_sequence)$/;"	f	class:CSA::RLCSABuilder
+addGreedySamples	sampler.cpp	/^SemiGreedySampler::addGreedySamples(uint total_samples)$/;"	f	class:CSA::SemiGreedySampler
+addItem	bits/array.h	/^    inline void addItem(usint value) { this->writeItem(value); }$/;"	f	class:CSA::ArrayEncoder
+addItem	docarray.h	/^    inline void addItem(usint item, std::vector<pair_type>& result) const$/;"	f	class:CSA::DocArray
+addItem	docarray.h	/^    inline void addItem(usint item, std::vector<usint>& result) const$/;"	f	class:CSA::DocArray
+addLeaf	docarray.cpp	/^STNode::addLeaf(STNode* left, STNode* right, usint pos)$/;"	f	class:CSA::STNode
+addLeaves	docarray.cpp	/^STNode::addLeaves()$/;"	f	class:CSA::STNode
+addLongSequence	rlcsa_builder.cpp	/^RLCSABuilder::addLongSequence(uchar* sequence, usint length, bool delete_sequence)$/;"	f	class:CSA::RLCSABuilder
+addNewBlock	bits/bitvector.cpp	/^VectorEncoder::addNewBlock()$/;"	f	class:CSA::VectorEncoder
+addRLCSA	rlcsa_builder.cpp	/^RLCSABuilder::addRLCSA(RLCSA* increment, uchar* sequence, usint length, bool delete_sequence)$/;"	f	class:CSA::RLCSABuilder
+addRun	bits/deltavector.cpp	/^DeltaEncoder::addRun(usint start, usint len)$/;"	f	class:CSA::DeltaEncoder
+addRun	bits/nibblevector.cpp	/^NibbleEncoder::addRun(usint start, usint len)$/;"	f	class:CSA::NibbleEncoder
+addRun	bits/rlevector.cpp	/^RLEEncoder::addRun(usint start, usint len)$/;"	f	class:CSA::RLEEncoder
+addRun	bits/succinctvector.cpp	/^SuccinctEncoder::addRun(usint start, usint len)$/;"	f	class:CSA::SuccinctEncoder
+addRun	docarray.h	/^    inline void addRun(usint from, usint length, std::vector<pair_type>& result) const$/;"	f	class:CSA::DocArray
+addRun	docarray.h	/^    inline void addRun(usint from, usint length, std::vector<usint>& result) const$/;"	f	class:CSA::DocArray
+addSample	adaptive_samples.cpp	/^AdaptiveSamples::addSample(sample_type sample)$/;"	f	class:CSA::AdaptiveSamples
+addSibling	docarray.cpp	/^STNode::addSibling(STNode* node)$/;"	f	class:CSA::STNode
+adjustment	sampler.h	/^    sum_type  adjustment;$/;"	m	class:CSA::WeightedSampler
+allDocuments	docarray.h	/^    std::vector<T>* allDocuments() const$/;"	f	class:CSA::DocArray
+alphabet	rlcsa.h	/^    Alphabet*  alphabet;$/;"	m	class:CSA::RLCSA
+array	bits/array.h	/^    usint*            array;$/;"	m	class:CSA::ArrayEncoder
+array	bits/array.h	/^    usint*         array;$/;"	m	class:CSA::Array
+array	bits/bitvector.h	/^    const usint* array;$/;"	m	class:CSA::BitVector
+array	bits/bitvector.h	/^    usint*            array;$/;"	m	class:CSA::VectorEncoder
+array	rlcsa.h	/^    PsiVector* array[CHARS];$/;"	m	class:CSA::RLCSA
+array_blocks	bits/array.h	/^    std::list<usint*> array_blocks;$/;"	m	class:CSA::ArrayEncoder
+array_blocks	bits/bitvector.h	/^    std::list<usint*> array_blocks;$/;"	m	class:CSA::VectorEncoder
+array_borders	bits/multiarray.h	/^    SuccinctVector*          array_borders;$/;"	m	class:CSA::MultiArray
+array_encoder	bits/multiarray.h	/^    SuccinctVector::Encoder* array_encoder;$/;"	m	class:CSA::MultiArray
+array_iter	bits/multiarray.h	/^        SuccinctVector::Iterator array_iter;$/;"	m	class:CSA::MultiArray::Iterator
+arrays	bits/multiarray.h	/^    usint         items, arrays, current_array_begin;$/;"	m	class:CSA::MultiArray
+atEnd	bits/multiarray.h	/^        inline bool atEnd() const { return (this->pos >= this->limit); }$/;"	f	class:CSA::MultiArray::Iterator
+between	utils/sort_wikipedia.cpp	/^between(char* from, char* to, const std::string& start, const std::string& stop)$/;"	f
+bits	bits/bitbuffer.h	/^    usint pos, bits, current;$/;"	m	class:CSA::ReadBuffer
+bits	bits/bitbuffer.h	/^    usint pos, bits, current;$/;"	m	class:CSA::WriteBuffer
+bitsLeft	bits/bitbuffer.h	/^    inline usint bitsLeft() const$/;"	f	class:CSA::ReadBuffer
+bitsLeft	bits/bitbuffer.h	/^    inline usint bitsLeft() const$/;"	f	class:CSA::WriteBuffer
+bitsToWords	bits/bitbuffer.h	/^    inline static usint bitsToWords(usint _bits) { return (_bits + WORD_BITS - 1) \/ WORD_BITS; }$/;"	f	class:CSA::ReadBuffer
+bitsToWords	bits/bitbuffer.h	/^    inline static usint bitsToWords(usint _bits) { return (_bits + WORD_BITS - 1) \/ WORD_BITS; }$/;"	f	class:CSA::WriteBuffer
+block	bits/array.h	/^        usint block, sample, cur, block_items;$/;"	m	class:CSA::Array::Iterator
+block	bits/bitvector.h	/^        usint      block;$/;"	m	class:CSA::BitVector::Iterator
+block_borders	docarray.h	/^    SuccinctVector* block_borders;$/;"	m	class:CSA::DocArray
+block_items	bits/array.h	/^        usint block, sample, cur, block_items;$/;"	m	class:CSA::Array::Iterator
+block_items	bits/bitvector.h	/^        usint      block_items;$/;"	m	class:CSA::BitVector::Iterator
+block_size	bits/array.h	/^    usint          block_size;$/;"	m	class:CSA::Array
+block_size	bits/array.h	/^    usint block_size, superblock_bytes;$/;"	m	class:CSA::ArrayEncoder
+block_size	bits/bitvector.h	/^    usint        block_size;$/;"	m	class:CSA::BitVector
+block_size	bits/bitvector.h	/^    usint block_size, superblock_bytes;$/;"	m	class:CSA::VectorEncoder
+block_size	rlcsa_builder.h	/^    usint block_size;$/;"	m	class:CSA::RLCSABuilder
+blocks	bits/array.h	/^    usint items, blocks;$/;"	m	class:CSA::ArrayEncoder
+blocks	bits/bitvector.h	/^    usint size, items, blocks;$/;"	m	class:CSA::VectorEncoder
+blocks	docarray.h	/^    ReadBuffer*     blocks;       \/\/ Value this->maxInteger() means all documents.$/;"	m	class:CSA::DocArray
+blocks_in_superblock	bits/array.h	/^    usint             blocks_in_superblock, current_blocks;$/;"	m	class:CSA::ArrayEncoder
+blocks_in_superblock	bits/bitvector.h	/^    usint             blocks_in_superblock, current_blocks;$/;"	m	class:CSA::VectorEncoder
+bridge	sampler.cpp	/^WeightedSampler::bridge(uint a, uint b, uint c)$/;"	f	class:CSA::WeightedSampler
+buffer	bits/array.h	/^        ReadBuffer buffer, samples;$/;"	m	class:CSA::Array::Iterator
+buffer	bits/array.h	/^    ReadBuffer*    buffer;$/;"	m	class:CSA::Array
+buffer	bits/array.h	/^    WriteBuffer*      buffer;$/;"	m	class:CSA::ArrayEncoder
+buffer	bits/bitvector.h	/^        ReadBuffer buffer, samples;$/;"	m	class:CSA::BitVector::Iterator
+buffer	bits/bitvector.h	/^    WriteBuffer*      buffer;$/;"	m	class:CSA::VectorEncoder
+buffer	bits/multiarray.h	/^        pair_type buffer;$/;"	m	class:CSA::DeltaMultiArray::Iterator
+buffer	rlcsa_builder.h	/^    uchar* buffer;$/;"	m	class:CSA::RLCSABuilder
+buffer_size	rlcsa_builder.h	/^    usint buffer_size;$/;"	m	class:CSA::RLCSABuilder
+buildIndex	bits/array.cpp	/^Array::buildIndex()$/;"	f	class:CSA::Array
+buildIndex	document_graph.cpp	/^buildIndex(const std::string& base_name, const std::string& prefix)$/;"	f
+buildInverseSamples	sasamples.cpp	/^SASamples::buildInverseSamples()$/;"	f	class:CSA::SASamples
+buildPLCP	rlcsa.cpp	/^RLCSA::buildPLCP(usint block_size) const$/;"	f	class:CSA::RLCSA
+buildPath	sampler.cpp	/^WeightedSampler::buildPath(uint links, uint* path_a, uint length_a, uint* path_b, uint length_b)$/;"	f	class:CSA::WeightedSampler
+buildRLCSA	rlcsa.cpp	/^RLCSA::buildRLCSA(uchar* data, usint* ranks, usint bytes, usint block_size, usint threads, Sampler* sampler, bool multiple_sequences, bool delete_data)$/;"	f	class:CSA::RLCSA
+buildRegularSamples	sampler.cpp	/^SemiGreedySampler::buildRegularSamples(uint _sample_rate)$/;"	f	class:CSA::SemiGreedySampler
+buildSamples	sampler.cpp	/^SemiGreedySampler::buildSamples(uint _sample_rate, double greediness)$/;"	f	class:CSA::SemiGreedySampler
+buildSamples	sampler.cpp	/^WeightedSampler::buildSamples(uint sample_rate, sum_type initial_adjustment, usint threads)$/;"	f	class:CSA::WeightedSampler
+buildSamples	sasamples.cpp	/^SASamples::buildSamples(pair_type* sample_pairs, bool inverse, usint threads)$/;"	f	class:CSA::SASamples
+build_time	rlcsa_builder.h	/^    double build_time;$/;"	m	class:CSA::RLCSABuilder
+c_items	adaptive_samples.h	/^    usint        c_items;$/;"	m	class:CSA::AdaptiveSamples
+calculateEdges	sampler.cpp	/^WeightedSampler::calculateEdges(weight_type* weights)$/;"	f	class:CSA::WeightedSampler
+canDeltaCode	bits/bitbuffer.h	/^    inline bool canDeltaCode(usint value) const$/;"	f	class:CSA::WriteBuffer
+candidate_samples	adaptive_samples.h	/^    sample_type* candidate_samples;$/;"	m	class:CSA::AdaptiveSamples
+charAt	alphabet.h	/^    inline usint charAt(usint i) const$/;"	f	class:CSA::Alphabet
+chars	alphabet.h	/^    usint chars;$/;"	m	class:CSA::Alphabet
+chars	rlcsa_builder.h	/^    usint chars;$/;"	m	class:CSA::RLCSABuilder
+child	docarray.h	/^  STNode*   child;$/;"	m	struct:CSA::STNode
+claimData	bits/bitbuffer.cpp	/^ReadBuffer::claimData()$/;"	f	class:CSA::ReadBuffer
+cleanUp	sampler.cpp	/^SemiGreedySampler::cleanUp()$/;"	f	class:CSA::SemiGreedySampler
+cleanUp	sampler.cpp	/^WeightedSampler::cleanUp()$/;"	f	class:CSA::WeightedSampler
+computeStoredDocuments	docarray.cpp	/^STNode::computeStoredDocuments(usint* documents)$/;"	f	class:CSA::STNode
+concatenateStrain	utils/extract_text.cpp	/^concatenateStrain(std::string &text, std::ifstream &file, usint strain)$/;"	f
+contains	misc/parameters.cpp	/^Parameters::contains(const std::string& key) const$/;"	f	class:CSA::Parameters
+containsAllDocuments	docarray.cpp	/^STNode::containsAllDocuments()$/;"	f	class:CSA::STNode
+contains_all	docarray.h	/^  bool      contains_all;$/;"	m	struct:CSA::STNode
+convertToBWTIndex	rlcsa.h	/^    inline void convertToBWTIndex(usint& sa_index) const { sa_index += this->number_of_sequences; }$/;"	f	class:CSA::RLCSA
+convertToBWTRange	rlcsa.cpp	/^RLCSA::convertToBWTRange(pair_type& sa_range) const$/;"	f	class:CSA::RLCSA
+convertToSAIndex	rlcsa.h	/^    inline void convertToSAIndex(usint& bwt_index) const { bwt_index -= this->number_of_sequences; }$/;"	f	class:CSA::RLCSA
+convertToSARange	rlcsa.cpp	/^RLCSA::convertToSARange(pair_type& bwt_range) const$/;"	f	class:CSA::RLCSA
+convertToSARange	rlcsa.cpp	/^RLCSA::convertToSARange(std::vector<pair_type>& bwt_ranges) const$/;"	f	class:CSA::RLCSA
+copyArray	bits/bitvector.cpp	/^BitVector::copyArray(VectorEncoder& encoder, bool use_directly)$/;"	f	class:CSA::BitVector
+count	rlcsa.cpp	/^RLCSA::count(const std::string& pattern) const$/;"	f	class:CSA::RLCSA
+count	suffixarray.cpp	/^SuffixArray::count(const std::string& pattern) const$/;"	f	class:CSA::SuffixArray
+countOf	alphabet.h	/^    inline usint countOf(usint c) const { return length(this->index_ranges[c]); }$/;"	f	class:CSA::Alphabet
+countRuns	bits/nibblevector.cpp	/^NibbleVector::Iterator::countRuns()$/;"	f	class:CSA::NibbleVector::Iterator
+countRuns	bits/rlevector.cpp	/^RLEVector::Iterator::countRuns()$/;"	f	class:CSA::RLEVector::Iterator
+countRuns	bits/succinctvector.cpp	/^SuccinctVector::Iterator::countRuns()$/;"	f	class:CSA::SuccinctVector::Iterator
+countRuns	read_bwt.cpp	/^countRuns(usint prev, uchar* buffer, usint length)$/;"	f
+countRuns	rlcsa.cpp	/^RLCSA::countRuns() const$/;"	f	class:CSA::RLCSA
+createDelta	bits/multiarray.cpp	/^MultiArray::createDelta(usint block_size)$/;"	f	class:CSA::MultiArray
+createFixed	bits/multiarray.cpp	/^MultiArray::createFixed(usint items, usint bits)$/;"	f	class:CSA::MultiArray
+createPatterns	rlcsa_test.cpp	/^createPatterns(std::vector<std::string>& rows, std::vector<Pattern>& patterns, bool ignore_tab, usint ignore)$/;"	f
+cumulative	alphabet.h	/^    inline usint cumulative(usint c) const { return this->index_ranges[c].first; }$/;"	f	class:CSA::Alphabet
+cur	bits/array.h	/^        usint block, sample, cur, block_items;$/;"	m	class:CSA::Array::Iterator
+cur	bits/bitvector.h	/^        usint      cur, val, run; \/\/ cur == 0 is the sample$/;"	m	class:CSA::BitVector::Iterator
+cur	bits/succinctvector.h	/^        usint cur;$/;"	m	class:CSA::SuccinctVector::Iterator
+current	bits/bitbuffer.h	/^    usint pos, bits, current;$/;"	m	class:CSA::ReadBuffer
+current	bits/bitbuffer.h	/^    usint pos, bits, current;$/;"	m	class:CSA::WriteBuffer
+current_array_begin	bits/multiarray.h	/^    usint         items, arrays, current_array_begin;$/;"	m	class:CSA::MultiArray
+current_blocks	bits/array.h	/^    usint             blocks_in_superblock, current_blocks;$/;"	m	class:CSA::ArrayEncoder
+current_blocks	bits/bitvector.h	/^    usint             blocks_in_superblock, current_blocks;$/;"	m	class:CSA::VectorEncoder
+current_samples	bits/array.h	/^    usint             samples_in_superblock, current_samples;$/;"	m	class:CSA::ArrayEncoder
+current_samples	bits/bitvector.h	/^    usint             samples_in_superblock, current_samples;$/;"	m	class:CSA::VectorEncoder
+data	bits/bitbuffer.h	/^    const usint* data;$/;"	m	class:CSA::ReadBuffer
+data	bits/bitbuffer.h	/^    usint* data;$/;"	m	class:CSA::WriteBuffer
+data	suffixarray.h	/^    uchar* data;$/;"	m	class:CSA::SuffixArray
+data_size	rlcsa.h	/^    usint data_size;$/;"	m	class:CSA::RLCSA
+data_size	suffixarray.h	/^    uint   data_size;$/;"	m	class:CSA::SuffixArray
+deleteChildren	docarray.cpp	/^STNode::deleteChildren()$/;"	f	class:CSA::STNode
+deleteIterators	rlcsa.cpp	/^RLCSA::deleteIterators(PsiVector::Iterator** iters) const$/;"	f	class:CSA::RLCSA
+delete_array	bits/array.h	/^    bool           delete_array;  \/\/ Do we own the array?$/;"	m	class:CSA::Array
+deltaCodeLength	bits/bitbuffer.h	/^    inline usint deltaCodeLength(usint value) const$/;"	f	class:CSA::WriteBuffer
+delta_buffer	bits/multiarray.h	/^    Array::Encoder* delta_buffer;$/;"	m	class:CSA::DeltaMultiArray
+delta_coded	bits/multiarray.h	/^    enum encoding_type { fixed_width, delta_coded };$/;"	e	enum:CSA::MultiArray::encoding_type
+delta_items	bits/multiarray.h	/^    Array*          delta_items;$/;"	m	class:CSA::DeltaMultiArray
+delta_iter	bits/multiarray.h	/^        Array::Iterator delta_iter;$/;"	m	class:CSA::DeltaMultiArray::Iterator
+determineSize	docarray.cpp	/^STNode::determineSize(uint& nodes, uint& leaves)$/;"	f	class:CSA::STNode
+directListing	docarray.cpp	/^DocArray::directListing(pair_type range) const$/;"	f	class:CSA::DocArray
+directListingRLE	docarray.cpp	/^DocArray::directListingRLE(pair_type range) const$/;"	f	class:CSA::DocArray
+directLocate	rlcsa.cpp	/^RLCSA::directLocate(pair_type range, usint* data, bool steps) const$/;"	f	class:CSA::RLCSA
+directLocate	rlcsa.cpp	/^RLCSA::directLocate(usint index, bool steps) const$/;"	f	class:CSA::RLCSA
+display	adaptive_samples.cpp	/^AdaptiveSamples::display(pair_type range, uchar* data)$/;"	f	class:CSA::AdaptiveSamples
+display	rlcsa.cpp	/^RLCSA::display(usint position, usint len, usint context, usint& result_length) const$/;"	f	class:CSA::RLCSA
+display	rlcsa.cpp	/^RLCSA::display(usint sequence, bool include_end_marker) const$/;"	f	class:CSA::RLCSA
+display	rlcsa.cpp	/^RLCSA::display(usint sequence, pair_type range) const$/;"	f	class:CSA::RLCSA
+display	rlcsa.cpp	/^RLCSA::display(usint sequence, pair_type range, uchar* data) const$/;"	f	class:CSA::RLCSA
+displayFromPosition	rlcsa.cpp	/^RLCSA::displayFromPosition(usint index, usint max_len, uchar* data) const$/;"	f	class:CSA::RLCSA
+displayPrefix	rlcsa.cpp	/^RLCSA::displayPrefix(usint sequence, usint len, uchar* data) const$/;"	f	class:CSA::RLCSA
+displayUnsafe	rlcsa.cpp	/^RLCSA::displayUnsafe(pair_type range, uchar* data, bool get_ranks, usint* ranks) const$/;"	f	class:CSA::RLCSA
+docc	rlcsa_test.cpp	/^  usint docc;$/;"	m	struct:Pattern	file:
+docs	docarray.h	/^  std::vector<uint>* docs;$/;"	m	struct:CSA::STNode
+documentListing	docarray.h	/^    documentListing(pair_type range) const$/;"	f	class:CSA::DocArray
+document_comparator	utils/sort_wikipedia.cpp	/^} document_comparator;$/;"	v	typeref:struct:DocumentComparator
+edge_totals	sampler.h	/^    sum_type* edge_totals;  \/\/ FIXME do not store explicitly?$/;"	m	class:CSA::WeightedSampler
+edge_weights	sampler.h	/^    sum_type* edge_weights;$/;"	m	class:CSA::WeightedSampler
+encode	bits/vectors.h	/^encode(const ReadBuffer& buffer, usint block_size, usint n)$/;"	f	namespace:CSA
+encodeItems	bits/multiarray.cpp	/^DeltaMultiArray::encodeItems()$/;"	f	class:CSA::DeltaMultiArray
+encodeItems	bits/multiarray.cpp	/^FixedMultiArray::encodeItems()$/;"	f	class:CSA::FixedMultiArray
+encodePLCPRun	rlcsa.h	/^    inline void encodePLCPRun(PLCPVector::Encoder& plcp, usint start, usint stop, usint first_val) const$/;"	f	class:CSA::RLCSA
+encoding	bits/multiarray.h	/^    encoding_type encoding;$/;"	m	class:CSA::MultiArray
+encoding_type	bits/multiarray.h	/^    enum encoding_type { fixed_width, delta_coded };$/;"	g	class:CSA::MultiArray
+end_points	rlcsa.h	/^    DeltaVector* end_points;$/;"	m	class:CSA::RLCSA
+error	bits/multiarray.h	/^    enum status_type { error, writable, ok };$/;"	e	enum:CSA::MultiArray::status_type
+fileSize	misc/utils.cpp	/^fileSize(std::ifstream& file)$/;"	f	namespace:CSA
+fileSize	misc/utils.cpp	/^fileSize(std::ofstream& file)$/;"	f	namespace:CSA
+finalLink	sampler.cpp	/^WeightedSampler::finalLink(std::deque<node_type>& active_nodes, uint to, bool shortest)$/;"	f	class:CSA::WeightedSampler
+find	utils/sort_wikipedia.cpp	/^find(char** from, const std::string& pattern, bool after)$/;"	f
+finishWriting	bits/multiarray.cpp	/^MultiArray::finishWriting()$/;"	f	class:CSA::MultiArray
+first	misc/utils.h	/^  T first;$/;"	m	struct:CSA::GenericTriple
+first_children	docarray.h	/^    SuccinctVector* first_children;$/;"	m	class:CSA::DocArray
+fixed_buffer	bits/multiarray.h	/^    WriteBuffer* fixed_buffer;$/;"	m	class:CSA::FixedMultiArray
+fixed_items	bits/multiarray.h	/^    ReadBuffer*  fixed_items;$/;"	m	class:CSA::FixedMultiArray
+fixed_iter	bits/multiarray.h	/^        ReadBuffer fixed_iter;$/;"	m	class:CSA::FixedMultiArray::Iterator
+fixed_width	bits/multiarray.h	/^    enum encoding_type { fixed_width, delta_coded };$/;"	e	enum:CSA::MultiArray::encoding_type
+flush	bits/deltavector.cpp	/^DeltaEncoder::flush()$/;"	f	class:CSA::DeltaEncoder
+flush	bits/nibblevector.cpp	/^NibbleEncoder::flush()$/;"	f	class:CSA::NibbleEncoder
+flush	bits/rlevector.cpp	/^RLEEncoder::flush()$/;"	f	class:CSA::RLEEncoder
+flush	bits/succinctvector.cpp	/^SuccinctEncoder::flush()$/;"	f	class:CSA::SuccinctEncoder
+flush	rlcsa_builder.cpp	/^RLCSABuilder::flush()$/;"	f	class:CSA::RLCSABuilder
+found	rlcsa_test.cpp	/^  inline bool found() const { return !isEmpty(this->range); }$/;"	f	struct:Pattern
+free_buffer	bits/bitbuffer.h	/^    bool  free_buffer;$/;"	m	class:CSA::ReadBuffer
+free_buffer	bits/bitbuffer.h	/^    bool free_buffer;$/;"	m	class:CSA::WriteBuffer
+generatePositions	display_test.cpp	/^generatePositions(weight_type* weights, usint size, usint number)$/;"	f
+get	misc/parameters.cpp	/^Parameters::get(const parameter_type& param) const$/;"	f	class:CSA::Parameters
+get	misc/parameters.cpp	/^Parameters::get(const std::string& key) const$/;"	f	class:CSA::Parameters
+getAlphabetSize	alphabet.h	/^    inline usint getAlphabetSize() const { return this->chars; }$/;"	f	class:CSA::Alphabet
+getBWT	rlcsa_builder.cpp	/^RLCSABuilder::getBWT(usint& length)$/;"	f	class:CSA::RLCSABuilder
+getBWTRange	rlcsa.cpp	/^RLCSA::getBWTRange() const$/;"	f	class:CSA::RLCSA
+getBlockSize	bits/array.h	/^    inline usint getBlockSize() const { return this->block_size; }$/;"	f	class:CSA::Array
+getBlockSize	bits/bitvector.h	/^    inline usint getBlockSize() const { return this->block_size; }$/;"	f	class:CSA::BitVector
+getBlockSize	rlcsa.h	/^    inline usint getBlockSize() const { return this->array[this->alphabet->getFirstChar()]->getBlockSize(); }$/;"	f	class:CSA::RLCSA
+getBuildTime	rlcsa_builder.cpp	/^RLCSABuilder::getBuildTime()$/;"	f	class:CSA::RLCSABuilder
+getCandidateLoad	adaptive_samples.cpp	/^AdaptiveSamples::getCandidateLoad() const$/;"	f	class:CSA::AdaptiveSamples
+getCharRange	rlcsa.cpp	/^RLCSA::getCharRange(usint c) const$/;"	f	class:CSA::RLCSA
+getCharacter	rlcsa.h	/^    inline usint getCharacter(usint sa_index) const$/;"	f	class:CSA::RLCSA
+getCompressedSize	bits/bitvector.cpp	/^BitVector::getCompressedSize() const$/;"	f	class:CSA::BitVector
+getDataSize	alphabet.h	/^    inline usint getDataSize() const { return this->size; }$/;"	f	class:CSA::Alphabet
+getDistance	sampler.cpp	/^WeightedSampler::getDistance(uint from, uint to)$/;"	f	class:CSA::WeightedSampler
+getEdgeWeight	sampler.cpp	/^WeightedSampler::getEdgeWeight(uint from, uint to)$/;"	f	class:CSA::WeightedSampler
+getEncoding	bits/multiarray.h	/^    inline encoding_type getEncoding() const { return this->encoding; }$/;"	f	class:CSA::MultiArray
+getFirstChar	alphabet.h	/^    inline usint getFirstChar() const { return this->text_chars[0]; }$/;"	f	class:CSA::Alphabet
+getFirstSampleAfter	sasamples.h	/^    inline pair_type getFirstSampleAfter(usint index) const$/;"	f	class:CSA::SASamples
+getFlags	bits/multiarray.cpp	/^DeltaMultiArray::getFlags() const$/;"	f	class:CSA::DeltaMultiArray
+getFlags	bits/multiarray.cpp	/^FixedMultiArray::getFlags() const$/;"	f	class:CSA::FixedMultiArray
+getImplicitSample	rlcsa.h	/^    inline usint getImplicitSample(usint bwt_index) const$/;"	f	class:CSA::RLCSA
+getItem	bits/array.h	/^        inline usint getItem(usint index) { return this->readItem(index); }$/;"	f	class:CSA::Array::Iterator
+getItemSize	bits/bitbuffer.h	/^    inline usint getItemSize() const$/;"	f	class:CSA::ReadBuffer
+getItemSize	bits/bitbuffer.h	/^    inline usint getItemSize() const$/;"	f	class:CSA::WriteBuffer
+getItems	sampler.h	/^    inline uint getItems() const { return this->number_of_samples; }$/;"	f	class:CSA::Sampler
+getIterator	bits/multiarray.h	/^    virtual MultiArray::Iterator* getIterator() const { return new Iterator(*this); }$/;"	f	class:CSA::DeltaMultiArray
+getIterator	bits/multiarray.h	/^    virtual MultiArray::Iterator* getIterator() const { return new Iterator(*this); }$/;"	f	class:CSA::FixedMultiArray
+getIterators	rlcsa.cpp	/^RLCSA::getIterators() const$/;"	f	class:CSA::RLCSA
+getLCPArray	suffixarray.cpp	/^SuffixArray::getLCPArray(bool getPLCP) const$/;"	f	class:CSA::SuffixArray
+getLoad	adaptive_samples.cpp	/^AdaptiveSamples::getLoad() const$/;"	f	class:CSA::AdaptiveSamples
+getMergeTime	rlcsa_builder.cpp	/^RLCSABuilder::getMergeTime()$/;"	f	class:CSA::RLCSABuilder
+getNumberOfArrays	bits/multiarray.h	/^    inline usint getNumberOfArrays() const { return this->arrays; }$/;"	f	class:CSA::MultiArray
+getNumberOfDocuments	docarray.h	/^    inline usint getNumberOfDocuments() const { return this->rlcsa.getNumberOfSequences(); }$/;"	f	class:CSA::DocArray
+getNumberOfInternalNodes	docarray.h	/^    inline usint getNumberOfInternalNodes() const { return this->first_children->getNumberOfItems(); }$/;"	f	class:CSA::DocArray
+getNumberOfItems	bits/bitbuffer.h	/^    inline usint getNumberOfItems() const$/;"	f	class:CSA::ReadBuffer
+getNumberOfItems	bits/bitvector.h	/^    inline usint getNumberOfItems() const { return this->items; }$/;"	f	class:CSA::BitVector
+getNumberOfLeaves	docarray.h	/^    inline usint getNumberOfLeaves() const { return this->leaf_ranges->getNumberOfItems(); }$/;"	f	class:CSA::DocArray
+getNumberOfNodes	docarray.h	/^    inline usint getNumberOfNodes() const { return this->getNumberOfLeaves() + this->getNumberOfInternalNodes(); }$/;"	f	class:CSA::DocArray
+getNumberOfRules	docarray.h	/^    inline usint getNumberOfRules() const { return this->rule_borders->getNumberOfItems(); }$/;"	f	class:CSA::DocArray
+getNumberOfSamples	adaptive_samples.cpp	/^AdaptiveSamples::getNumberOfSamples() const$/;"	f	class:CSA::AdaptiveSamples
+getNumberOfSamples	lcpsamples.h	/^    inline usint getNumberOfSamples() const { return this->items; }$/;"	f	class:CSA::LCPSamples
+getNumberOfSamples	sasamples.h	/^    inline usint getNumberOfSamples() const { return this->items; }$/;"	f	class:CSA::SASamples
+getNumberOfSequences	rlcsa.h	/^    inline usint getNumberOfSequences() const { return this->number_of_sequences; }$/;"	f	class:CSA::RLCSA
+getNumberOfSequences	suffixarray.h	/^    inline uint getNumberOfSequences() const { return this->sequences; }$/;"	f	class:CSA::SuffixArray
+getPathWeight	sampler.cpp	/^WeightedSampler::getPathWeight(uint through, uint to)$/;"	f	class:CSA::WeightedSampler
+getPrimaryLoad	adaptive_samples.cpp	/^AdaptiveSamples::getPrimaryLoad() const$/;"	f	class:CSA::AdaptiveSamples
+getRLCSA	parallel_build.cpp	/^getRLCSA(RLCSABuilder& builder, const std::string& base_name)$/;"	f
+getRLCSA	rlcsa_builder.cpp	/^RLCSABuilder::getRLCSA()$/;"	f	class:CSA::RLCSABuilder
+getRange	alphabet.h	/^    inline pair_type getRange(usint c) const { return this->index_ranges[c]; }$/;"	f	class:CSA::Alphabet
+getRanks	rlcsa_builder.cpp	/^RLCSABuilder::getRanks(uchar* sequence, usint length, std::vector<usint>& end_markers)$/;"	f	class:CSA::RLCSABuilder
+getRanks	suffixarray.h	/^    inline usint* const getRanks() const { return this->ranks; }$/;"	f	class:CSA::SuffixArray
+getReadBuffer	bits/bitbuffer.cpp	/^WriteBuffer::getReadBuffer()$/;"	f	class:CSA::WriteBuffer
+getRelativePosition	rlcsa.cpp	/^RLCSA::getRelativePosition(usint value) const$/;"	f	class:CSA::RLCSA
+getSARange	rlcsa.cpp	/^RLCSA::getSARange() const$/;"	f	class:CSA::RLCSA
+getSample	bits/array.h	/^        inline void getSample(usint sample_number)$/;"	f	class:CSA::Array::Iterator
+getSample	bits/bitvector.h	/^        inline void getSample(usint sample_number)$/;"	f	class:CSA::BitVector::Iterator
+getSample	bits/nibblevector.h	/^        inline void getSample(usint sample_number)$/;"	f	class:CSA::NibbleVector::Iterator
+getSample	sasamples.h	/^    inline usint getSample(usint i) const$/;"	f	class:CSA::SASamples
+getSampleAt	lcpsamples.h	/^    inline usint getSampleAt(usint sa_index) const$/;"	f	class:CSA::LCPSamples
+getSampleAt	sasamples.h	/^    inline usint getSampleAt(usint index) const$/;"	f	class:CSA::SASamples
+getSampleRate	sasamples.h	/^    inline usint getSampleRate() const { return this->rate; }$/;"	f	class:CSA::SASamples
+getSampledIndex	bits/bitvector.h	/^        inline usint getSampledIndex(usint sample_number)$/;"	f	class:CSA::BitVector::Iterator
+getSampledValue	bits/bitvector.h	/^        inline usint getSampledValue(usint sample_number)$/;"	f	class:CSA::BitVector::Iterator
+getSamples	sampler.cpp	/^Sampler::getSamples(short_pair* sa, uint number_of_sequences, usint threads)$/;"	f	class:CSA::Sampler
+getSearchTime	rlcsa_builder.cpp	/^RLCSABuilder::getSearchTime()$/;"	f	class:CSA::RLCSABuilder
+getSequenceForPosition	rlcsa.cpp	/^RLCSA::getSequenceForPosition(usint value) const$/;"	f	class:CSA::RLCSA
+getSequenceForPosition	rlcsa.cpp	/^RLCSA::getSequenceForPosition(usint* values, usint len) const$/;"	f	class:CSA::RLCSA
+getSequenceRange	rlcsa.cpp	/^RLCSA::getSequenceRange(usint number) const$/;"	f	class:CSA::RLCSA
+getSequenceRangeForPosition	rlcsa.cpp	/^RLCSA::getSequenceRangeForPosition(usint value) const$/;"	f	class:CSA::RLCSA
+getSize	bits/array.h	/^    inline usint getSize() const { return this->items; }$/;"	f	class:CSA::Array
+getSize	bits/bitvector.h	/^    inline usint getSize() const { return this->size; }$/;"	f	class:CSA::BitVector
+getSize	bits/multiarray.h	/^    inline usint getSize() const { return this->items; }$/;"	f	class:CSA::MultiArray
+getSize	docarray.h	/^    inline usint getSize() const { return this->rlcsa.getSize(); }$/;"	f	class:CSA::DocArray
+getSize	rlcsa.h	/^    inline usint getSize() const { return this->data_size; }$/;"	f	class:CSA::RLCSA
+getSize	sampler.h	/^    inline uint getSize() const { return this->size; }$/;"	f	class:CSA::Sampler
+getSize	suffixarray.h	/^    inline uint getSize() const { return this->data_size - this->sequences; }$/;"	f	class:CSA::SuffixArray
+getSortTime	rlcsa_builder.cpp	/^RLCSABuilder::getSortTime()$/;"	f	class:CSA::RLCSABuilder
+getStatus	sampler.h	/^    inline uint getStatus() const { return this->status; }$/;"	f	class:CSA::Sampler
+getSuffixArrayForSequence	rlcsa.cpp	/^RLCSA::getSuffixArrayForSequence(usint number) const$/;"	f	class:CSA::RLCSA
+getTextChar	alphabet.h	/^    inline usint getTextChar(usint i) const { return this->text_chars[i]; }$/;"	f	class:CSA::Alphabet
+getTextSize	rlcsa.h	/^    inline usint getTextSize() const { return this->end_points->getSize(); }$/;"	f	class:CSA::RLCSA
+goToItem	bits/bitbuffer.h	/^    inline void goToItem(usint item)$/;"	f	class:CSA::ReadBuffer
+goToItem	bits/bitbuffer.h	/^    inline void goToItem(usint item)$/;"	f	class:CSA::WriteBuffer
+goToItem	bits/multiarray.cpp	/^DeltaMultiArray::Iterator::goToItem(usint array, usint index)$/;"	f	class:CSA::DeltaMultiArray::Iterator
+goToItem	bits/multiarray.cpp	/^FixedMultiArray::Iterator::goToItem(usint array, usint index)$/;"	f	class:CSA::FixedMultiArray::Iterator
+half_greedy	adaptive_samples.h	/^    bool      use_candidates, half_greedy;$/;"	m	class:CSA::AdaptiveSamples
+hasChar	alphabet.h	/^    inline bool hasChar(usint c) const { return !isEmpty(this->index_ranges[c]); }$/;"	f	class:CSA::Alphabet
+hasGrammar	docarray.h	/^    inline bool hasGrammar() const { return this->has_grammar; }$/;"	f	class:CSA::DocArray
+hasImplicitSample	rlcsa.h	/^    inline bool hasImplicitSample(usint bwt_index) const$/;"	f	class:CSA::RLCSA
+hasNext	bits/array.h	/^        inline bool hasNext() const$/;"	f	class:CSA::Array::Iterator
+hasNext	bits/bitvector.h	/^        inline bool hasNext() const$/;"	f	class:CSA::BitVector::Iterator
+hasNext	bits/multiarray.h	/^        inline bool hasNext() const { return (this->pos < this->parent.items); }$/;"	f	class:CSA::MultiArray::Iterator
+hasNext	bits/succinctvector.h	/^        inline bool hasNext() const { return (this->cur < this->parent.items - 1); }$/;"	f	class:CSA::SuccinctVector::Iterator
+hasNextItem	bits/bitbuffer.h	/^    inline bool hasNextItem() const$/;"	f	class:CSA::ReadBuffer
+hasNextItem	bits/bitbuffer.h	/^    inline bool hasNextItem() const$/;"	f	class:CSA::WriteBuffer
+has_grammar	docarray.h	/^    bool ok, has_grammar, uses_rle;$/;"	m	class:CSA::DocArray
+hash	adaptive_samples.cpp	/^AdaptiveSamples::hash(key_type key)$/;"	f	class:CSA::AdaptiveSamples
+id	docarray.h	/^  uint      id;$/;"	m	struct:CSA::STNode
+index	adaptive_samples.h	/^    const RLCSA& index;$/;"	m	class:CSA::AdaptiveSamples
+index	rlcsa_builder.h	/^    RLCSA* index;$/;"	m	class:CSA::RLCSABuilder
+indexForRank	bits/bitvector.cpp	/^BitVector::indexForRank()$/;"	f	class:CSA::BitVector
+indexForRank	bits/succinctvector.cpp	/^SuccinctVector::indexForRank()$/;"	f	class:CSA::SuccinctVector
+indexForSelect	bits/bitvector.cpp	/^BitVector::indexForSelect()$/;"	f	class:CSA::BitVector
+indexForSelect	bits/succinctvector.cpp	/^SuccinctVector::indexForSelect()$/;"	f	class:CSA::SuccinctVector
+indexParts	parallel_build.cpp	/^indexParts(std::vector<std::string>& filenames, usint threads, Parameters& parameters, double& build_time)$/;"	f
+index_pointers	alphabet.h	/^    usint index_pointers[CHARS]; \/\/ which of the above is at i * index_rate$/;"	m	class:CSA::Alphabet
+index_ranges	alphabet.h	/^    pair_type index_ranges[CHARS];$/;"	m	class:CSA::Alphabet
+index_rate	alphabet.h	/^    usint index_rate;$/;"	m	class:CSA::Alphabet
+index_rate	bits/array.h	/^    usint          index_rate;$/;"	m	class:CSA::Array
+indexes	lcpsamples.h	/^    LCPVector* indexes;$/;"	m	class:CSA::LCPSamples
+indexes	sasamples.h	/^    SAVector*   indexes;$/;"	m	class:CSA::SASamples
+initialSort	misc/utils.cpp	/^initialSort(short_pair* pairs, uint* keys, std::vector<ss_range>& unsorted, uint n, uint threads, uint h)$/;"	f	namespace:CSA
+initialize	alphabet.cpp	/^Alphabet::initialize(const usint* counts)$/;"	f	class:CSA::Alphabet
+insertCollection	rlcsa_builder.cpp	/^RLCSABuilder::insertCollection(const std::string& base_name)$/;"	f	class:CSA::RLCSABuilder
+insertFromFile	rlcsa_builder.cpp	/^RLCSABuilder::insertFromFile(const std::string& base_name)$/;"	f	class:CSA::RLCSABuilder
+insertSequence	rlcsa_builder.cpp	/^RLCSABuilder::insertSequence(char* sequence, usint length, bool delete_sequence)$/;"	f	class:CSA::RLCSABuilder
+integer_bits	bits/array.h	/^    usint          integer_bits;$/;"	m	class:CSA::Array
+integer_bits	bits/bitvector.h	/^    usint        integer_bits;$/;"	m	class:CSA::BitVector
+inverseSA	sasamples.cpp	/^SASamples::inverseSA(usint value) const$/;"	f	class:CSA::SASamples
+inverse_indexes	sasamples.h	/^    SAVector*   inverse_indexes;$/;"	m	class:CSA::SASamples
+inverse_samples	sasamples.h	/^    ReadBuffer* inverse_samples;$/;"	m	class:CSA::SASamples
+isAsGood	sampler.cpp	/^WeightedSampler::isAsGood(uint a, uint b)$/;"	f	class:CSA::WeightedSampler
+isBetter	sampler.cpp	/^WeightedSampler::isBetter(uint a, uint b, uint to)$/;"	f	class:CSA::WeightedSampler
+isEmpty	misc/definitions.h	/^inline bool isEmpty(const pair_type data)$/;"	f	namespace:CSA
+isFull	bits/multiarray.cpp	/^DeltaMultiArray::isFull() const$/;"	f	class:CSA::DeltaMultiArray
+isFull	bits/multiarray.cpp	/^FixedMultiArray::isFull() const$/;"	f	class:CSA::FixedMultiArray
+isOk	adaptive_samples.h	/^    inline bool isOk() const { return this->ok; }$/;"	f	class:CSA::AdaptiveSamples
+isOk	alphabet.h	/^    inline bool isOk() const { return this->ok; }$/;"	f	class:CSA::Alphabet
+isOk	bits/multiarray.h	/^    inline bool isOk() const { return (this->status == ok); }$/;"	f	class:CSA::MultiArray
+isOk	docarray.h	/^    inline bool isOk() const { return this->ok; }$/;"	f	class:CSA::DocArray
+isOk	rlcsa.h	/^    inline bool isOk() const { return this->ok; }$/;"	f	class:CSA::RLCSA
+isOk	rlcsa_builder.cpp	/^RLCSABuilder::isOk()$/;"	f	class:CSA::RLCSABuilder
+isOk	suffixarray.h	/^    inline bool isOk() const { return this->ok; }$/;"	f	class:CSA::SuffixArray
+isSampled	lcpsamples.h	/^    inline bool isSampled(usint sa_index) const$/;"	f	class:CSA::LCPSamples
+isSampled	sasamples.h	/^    inline bool isSampled(usint index) const$/;"	f	class:CSA::SASamples
+isSet	bits/bitbuffer.h	/^    inline usint isSet(usint index) const$/;"	f	class:CSA::ReadBuffer
+isSet	bits/bitbuffer.h	/^    inline usint isSet(usint index) const$/;"	f	class:CSA::WriteBuffer
+isSet	bits/deltavector.cpp	/^DeltaVector::Iterator::isSet(usint value)$/;"	f	class:CSA::DeltaVector::Iterator
+isSet	bits/nibblevector.cpp	/^NibbleVector::Iterator::isSet(usint value)$/;"	f	class:CSA::NibbleVector::Iterator
+isSet	bits/rlevector.cpp	/^RLEVector::Iterator::isSet(usint value)$/;"	f	class:CSA::RLEVector::Iterator
+isSet	bits/succinctvector.cpp	/^SuccinctVector::Iterator::isSet(usint value)$/;"	f	class:CSA::SuccinctVector::Iterator
+isStrictlyBetter	sampler.cpp	/^WeightedSampler::isStrictlyBetter(uint a, uint b, uint to)$/;"	f	class:CSA::WeightedSampler
+isWeighted	sasamples.h	/^    inline bool isWeighted() const { return this->weighted; }$/;"	f	class:CSA::SASamples
+isWritable	bits/multiarray.h	/^    inline bool isWritable() const { return (this->status == writable); }$/;"	f	class:CSA::MultiArray
+item_bits	bits/bitbuffer.h	/^    usint size, item_bits, items;$/;"	m	class:CSA::ReadBuffer
+item_bits	bits/bitbuffer.h	/^    usint size, item_bits, items;$/;"	m	class:CSA::WriteBuffer
+item_index	bits/array.h	/^    ReadBuffer*    item_index;$/;"	m	class:CSA::Array
+items	adaptive_samples.h	/^    usint        size, items;$/;"	m	class:CSA::AdaptiveSamples
+items	bits/array.h	/^    usint          items;$/;"	m	class:CSA::Array
+items	bits/array.h	/^    usint items, blocks;$/;"	m	class:CSA::ArrayEncoder
+items	bits/bitbuffer.h	/^    usint size, item_bits, items;$/;"	m	class:CSA::ReadBuffer
+items	bits/bitbuffer.h	/^    usint size, item_bits, items;$/;"	m	class:CSA::WriteBuffer
+items	bits/bitvector.h	/^    usint size, items, blocks;$/;"	m	class:CSA::VectorEncoder
+items	bits/bitvector.h	/^    usint size, items;$/;"	m	class:CSA::BitVector
+items	bits/multiarray.h	/^    usint         items, arrays, current_array_begin;$/;"	m	class:CSA::MultiArray
+items	lcpsamples.h	/^    usint size, items;$/;"	m	class:CSA::LCPSamples
+items	sasamples.h	/^    usint rate, size, items;$/;"	m	class:CSA::SASamples
+key	utils/sort_wikipedia.cpp	/^  std::string key;$/;"	m	struct:Document	file:
+key_comparator	misc/utils.cpp	/^} key_comparator;$/;"	m	namespace:CSA	typeref:struct:CSA::SSKeyComparator	file:
+key_type	adaptive_samples.h	/^    typedef uint key_type;$/;"	t	class:CSA::AdaptiveSamples
+largeWrite	misc/utils.cpp	/^largeWrite(std::ofstream& file, char* data, std::streamoff size, std::streamoff block_size)$/;"	f	namespace:CSA
+lcp	rlcsa.cpp	/^RLCSA::lcp(usint index, const LCPSamples& lcp_samples, bool steps) const$/;"	f	class:CSA::RLCSA
+lcpDirect	rlcsa.cpp	/^RLCSA::lcpDirect(usint index) const$/;"	f	class:CSA::RLCSA
+leaf_ranges	docarray.h	/^    DeltaVector*    leaf_ranges;$/;"	m	class:CSA::DocArray
+length	misc/definitions.h	/^inline usint length(const pair_type data)$/;"	f	namespace:CSA
+length	misc/definitions.h	/^inline usint length(usint n)$/;"	f	namespace:CSA
+limit	bits/multiarray.h	/^        usint pos, limit;$/;"	m	class:CSA::MultiArray::Iterator
+link	sampler.cpp	/^WeightedSampler::link(std::deque<node_type>& active_nodes, uint to, bool shortest)$/;"	f	class:CSA::WeightedSampler
+listDocuments	docarray.cpp	/^DocArray::listDocuments(const std::string& pattern) const$/;"	f	class:CSA::DocArray
+listDocuments	docarray.cpp	/^DocArray::listDocuments(pair_type range) const$/;"	f	class:CSA::DocArray
+listDocumentsRLE	docarray.cpp	/^DocArray::listDocumentsRLE(const std::string& pattern) const$/;"	f	class:CSA::DocArray
+listDocumentsRLE	docarray.cpp	/^DocArray::listDocumentsRLE(pair_type range) const$/;"	f	class:CSA::DocArray
+locate	adaptive_samples.cpp	/^AdaptiveSamples::locate(pair_type range, bool steps)$/;"	f	class:CSA::AdaptiveSamples
+locate	adaptive_samples.cpp	/^AdaptiveSamples::locate(usint i, bool steps)$/;"	f	class:CSA::AdaptiveSamples
+locate	rlcsa.cpp	/^RLCSA::locate(pair_type range, bool direct, bool steps) const$/;"	f	class:CSA::RLCSA
+locate	rlcsa.cpp	/^RLCSA::locate(pair_type range, usint* data, bool direct, bool steps) const$/;"	f	class:CSA::RLCSA
+locate	rlcsa.cpp	/^RLCSA::locate(usint index, bool steps) const$/;"	f	class:CSA::RLCSA
+locate	suffixarray.cpp	/^SuffixArray::locate(pair_type range) const$/;"	f	class:CSA::SuffixArray
+locate	suffixarray.cpp	/^SuffixArray::locate(uint index) const$/;"	f	class:CSA::SuffixArray
+locateRange	rlcsa.cpp	/^RLCSA::locateRange(pair_type range) const$/;"	f	class:CSA::RLCSA
+locateRange	rlcsa.cpp	/^RLCSA::locateRange(pair_type range, std::vector<usint>& vec) const$/;"	f	class:CSA::RLCSA
+locateRanges	rlcsa.cpp	/^RLCSA::locateRanges(std::vector<pair_type>& ranges) const$/;"	f	class:CSA::RLCSA
+locateUnsafe	rlcsa.cpp	/^RLCSA::locateUnsafe(pair_type range, usint* data, bool steps) const$/;"	f	class:CSA::RLCSA
+main	build_plcp.cpp	/^main(int argc, char** argv)$/;"	f
+main	build_rlcsa.cpp	/^main(int argc, char** argv)$/;"	f
+main	build_sa.cpp	/^main(int argc, char** argv)$/;"	f
+main	display_test.cpp	/^int main(int argc, char** argv)$/;"	f
+main	document_graph.cpp	/^main(int argc, char** argv)$/;"	f
+main	extract_sequence.cpp	/^int main(int argc, char** argv)$/;"	f
+main	lcp_test.cpp	/^int main(int argc, char** argv)$/;"	f
+main	locate_test.cpp	/^int main(int argc, char** argv)$/;"	f
+main	parallel_build.cpp	/^main(int argc, char** argv)$/;"	f
+main	read_bwt.cpp	/^main(int argc, char** argv)$/;"	f
+main	rlcsa_grep.cpp	/^int main(int argc, char** argv)$/;"	f
+main	rlcsa_test.cpp	/^int main(int argc, char** argv)$/;"	f
+main	sample_lcp.cpp	/^main(int argc, char** argv)$/;"	f
+main	sampler_test.cpp	/^int main(int argc, char** argv)$/;"	f
+main	ss_test.cpp	/^int main(int argc, char** argv)$/;"	f
+main	utils/convert_patterns.cpp	/^main(int argc, char** argv)$/;"	f
+main	utils/extract_sequences.py	/^def main():$/;"	f
+main	utils/extract_text.cpp	/^main(int argc, char** argv)$/;"	f
+main	utils/sort_wikipedia.cpp	/^main(int argc, char** argv)$/;"	f
+main	utils/split_text.cpp	/^main(int argc, char** argv)$/;"	f
+main	utils/split_wikipedia.py	/^def main():$/;"	f
+main	utils/wikipedia_extract.py	/^def main():$/;"	f
+match	suffixarray.cpp	/^SuffixArray::match(const std::string& pattern, uint index) const$/;"	f	class:CSA::SuffixArray
+maxInteger	docarray.h	/^    inline usint maxInteger() const { return this->getNumberOfDocuments() + this->getNumberOfRules(); }$/;"	f	class:CSA::DocArray
+memoryUsage	misc/utils.cpp	/^memoryUsage()$/;"	f	namespace:CSA
+mergeEndPoints	rlcsa.cpp	/^RLCSA::mergeEndPoints(RLCSA& index, RLCSA& increment)$/;"	f	class:CSA::RLCSA
+mergeRLCSA	rlcsa_builder.cpp	/^RLCSABuilder::mergeRLCSA(RLCSA* increment, usint* ranks, usint length)$/;"	f	class:CSA::RLCSABuilder
+mergeRanges	misc/utils.cpp	/^mergeRanges(std::vector<pair_type>* vec, bool parallel)$/;"	f	namespace:CSA
+mergeSamples	rlcsa.cpp	/^RLCSA::mergeSamples(RLCSA& index, RLCSA& increment, usint* positions)$/;"	f	class:CSA::RLCSA
+mergeSamples	sasamples.cpp	/^SASamples::mergeSamples(SASamples& index, SASamples& increment, usint* positions, usint n, usint skip)$/;"	f	class:CSA::SASamples
+mergeVectors	bits/vectors.h	/^mergeVectors(V* first, V* second, usint* positions, usint n, usint size, usint block_size)$/;"	f	namespace:CSA
+merge_time	rlcsa_builder.h	/^    double merge_time;$/;"	m	class:CSA::RLCSABuilder
+minimumWeightPath	sampler.cpp	/^WeightedSampler::minimumWeightPath(bool shortest, uint force)$/;"	f	class:CSA::WeightedSampler
+mode_type	rlcsa_grep.cpp	/^enum mode_type { COUNT, DISPLAY, CONTEXT };$/;"	g	file:
+moveBuffer	bits/bitbuffer.cpp	/^ReadBuffer::moveBuffer(const usint* buffer)$/;"	f	class:CSA::ReadBuffer
+moveBuffer	bits/bitbuffer.cpp	/^WriteBuffer::moveBuffer(usint* buffer)$/;"	f	class:CSA::WriteBuffer
+next	docarray.h	/^  STNode*   next;$/;"	m	struct:CSA::STNode
+nextArray	bits/multiarray.cpp	/^MultiArray::nextArray()$/;"	f	class:CSA::MultiArray
+nextItem	bits/array.cpp	/^Array::Iterator::nextItem()$/;"	f	class:CSA::Array::Iterator
+nextItem	bits/bitbuffer.h	/^    inline usint nextItem()$/;"	f	class:CSA::ReadBuffer
+nextItem	bits/multiarray.cpp	/^DeltaMultiArray::Iterator::nextItem()$/;"	f	class:CSA::DeltaMultiArray::Iterator
+nextItem	bits/multiarray.cpp	/^FixedMultiArray::Iterator::nextItem()$/;"	f	class:CSA::FixedMultiArray::Iterator
+nextMultipleOf	misc/definitions.h	/^inline usint nextMultipleOf(usint multiplier, usint value)$/;"	f	namespace:CSA
+nextValue	bits/deltavector.cpp	/^DeltaVector::Iterator::nextValue()$/;"	f	class:CSA::DeltaVector::Iterator
+nextValue	bits/nibblevector.cpp	/^NibbleVector::Iterator::nextValue()$/;"	f	class:CSA::NibbleVector::Iterator
+nextValue	bits/rlevector.cpp	/^RLEVector::Iterator::nextValue()$/;"	f	class:CSA::RLEVector::Iterator
+nextValue	bits/succinctvector.cpp	/^SuccinctVector::Iterator::nextValue()$/;"	f	class:CSA::SuccinctVector::Iterator
+next_leaves	docarray.h	/^    ReadBuffer*     next_leaves;  \/\/ this->getNumberOfLeaves() denotes that there is no next leaf.$/;"	m	class:CSA::DocArray
+nibbleCodeLength	bits/bitbuffer.h	/^    inline usint nibbleCodeLength(usint value) const$/;"	f	class:CSA::WriteBuffer
+nibbleEncode	bits/nibblevector.h	/^    inline void nibbleEncode(usint diff, usint len)$/;"	f	class:CSA::NibbleEncoder
+nodeIsBlock	docarray.h	/^    inline bool nodeIsBlock(usint node_id) const$/;"	f	class:CSA::DocArray
+nodeIsDoc	docarray.h	/^    inline bool nodeIsDoc(usint node_id) const$/;"	f	class:CSA::DocArray
+nodeToBlock	docarray.h	/^    inline usint nodeToBlock(usint node_id) const { return node_id - this->getNumberOfDocuments() - 1; }$/;"	f	class:CSA::DocArray
+nodeToDoc	docarray.h	/^    inline usint nodeToDoc(usint node_id) const { return node_id - 1; }$/;"	f	class:CSA::DocArray
+node_positions	sampler.h	/^    uint* node_positions;$/;"	m	class:CSA::WeightedSampler
+node_type	sampler.h	/^typedef std::pair<uint, uint> node_type;$/;"	t	namespace:CSA
+nodes	sampler.h	/^    uint  nodes;$/;"	m	class:CSA::WeightedSampler
+number_of_blocks	bits/array.h	/^    usint          number_of_blocks;$/;"	m	class:CSA::Array
+number_of_blocks	bits/bitvector.h	/^    usint        number_of_blocks;$/;"	m	class:CSA::BitVector
+number_of_samples	sampler.h	/^    uint       number_of_samples;$/;"	m	class:CSA::Sampler
+number_of_sequences	rlcsa.h	/^    usint number_of_sequences;$/;"	m	class:CSA::RLCSA
+occ	rlcsa_test.cpp	/^  inline usint occ() const { return length(this->range); }$/;"	f	struct:Pattern
+ok	adaptive_samples.h	/^    bool ok;$/;"	m	class:CSA::AdaptiveSamples
+ok	alphabet.h	/^    bool ok;$/;"	m	class:CSA::Alphabet
+ok	bits/multiarray.h	/^    enum status_type { error, writable, ok };$/;"	e	enum:CSA::MultiArray::status_type
+ok	docarray.h	/^    bool ok, has_grammar, uses_rle;$/;"	m	class:CSA::DocArray
+ok	rlcsa.h	/^    bool  ok;$/;"	m	class:CSA::RLCSA
+ok	rlcsa_builder.h	/^    bool ok;$/;"	m	class:CSA::RLCSABuilder
+ok	suffixarray.h	/^    bool ok;$/;"	m	class:CSA::SuffixArray
+operator ()	misc/utils.cpp	/^  bool operator() (const short_pair& a, const short_pair& b) const$/;"	f	struct:CSA::SSKeyComparator
+operator ()	misc/utils.cpp	/^  bool operator() (const skew_pair& a, const skew_pair& b) const$/;"	f	struct:CSA::SSSkewComparator
+operator ()	rlcsa_test.cpp	/^  bool operator() (const Pattern& a, const Pattern& b)$/;"	f	struct:PatternOccDoccComparator
+operator ()	utils/sort_wikipedia.cpp	/^  bool operator() (const Document& a, const Document& b)$/;"	f	struct:DocumentComparator
+operator <<	docarray.cpp	/^operator<<(std::ostream& stream, const STNode& data)$/;"	f	namespace:CSA
+operator <<	misc/utils.h	/^std::ostream& operator<<(std::ostream& stream, const std::pair<A, B>& data)$/;"	f	namespace:CSA
+original_sa	suffixarray.h	/^    uint*  original_sa;$/;"	m	class:CSA::SuffixArray
+packPairs	misc/utils.cpp	/^packPairs(skew_pair* old_pairs, uint n)$/;"	f	namespace:CSA
+pair_type	misc/definitions.h	/^typedef std::pair<usint, usint> pair_type;$/;"	t	namespace:CSA
+parallelSort	misc/utils.h	/^parallelSort(Iterator first, Iterator last, const Compare& comp)$/;"	f	namespace:CSA
+parallelSort	misc/utils.h	/^void parallelSort(Iterator first, Iterator last)$/;"	f	namespace:CSA
+parameter_type	misc/parameters.h	/^typedef std::pair<std::string, usint> parameter_type;$/;"	t	namespace:CSA
+parameters	misc/parameters.h	/^    std::map<std::string, usint> parameters;$/;"	m	class:CSA::Parameters
+parent	bits/array.h	/^        const Array& parent;$/;"	m	class:CSA::Array::Iterator
+parent	bits/bitvector.h	/^        const BitVector& parent;$/;"	m	class:CSA::BitVector::Iterator
+parent	bits/multiarray.h	/^        const MultiArray& parent;$/;"	m	class:CSA::MultiArray::Iterator
+parent	bits/succinctvector.h	/^        const SuccinctVector& parent;$/;"	m	class:CSA::SuccinctVector::Iterator
+parent	docarray.h	/^  STNode*   parent;$/;"	m	struct:CSA::STNode
+parentOf	docarray.h	/^    inline pair_type parentOf(usint tree_node, SuccinctVector::Iterator& iter) const$/;"	f	class:CSA::DocArray
+parents	docarray.h	/^    ReadBuffer*     parents;$/;"	m	class:CSA::DocArray
+parseLine	docarray.cpp	/^parseLine(std::string& row, std::vector<usint>& before, int separator, std::vector<usint>& after)$/;"	f	namespace:CSA
+parseSingletonFile	docarray.cpp	/^parseSingletonFile(const std::string& file_name, const DocArray& docarray, std::vector<pair_type>& occurrences, bool print)$/;"	f	namespace:CSA
+path_weights	sampler.h	/^    sum_type* path_weights;$/;"	m	class:CSA::WeightedSampler
+pattern	rlcsa_test.cpp	/^  std::string pattern;$/;"	m	struct:Pattern	file:
+pod_comparator	rlcsa_test.cpp	/^} pod_comparator;$/;"	v	typeref:struct:PatternOccDoccComparator
+popcount	misc/definitions.h	/^inline usint popcount(usint field)$/;"	f	namespace:CSA
+pos	adaptive_samples.h	/^    usint     window_size, pos, sum;$/;"	m	class:CSA::AdaptiveSamples
+pos	bits/bitbuffer.h	/^    usint pos, bits, current;$/;"	m	class:CSA::ReadBuffer
+pos	bits/bitbuffer.h	/^    usint pos, bits, current;$/;"	m	class:CSA::WriteBuffer
+pos	bits/multiarray.h	/^        usint pos, limit;$/;"	m	class:CSA::MultiArray::Iterator
+predecessors	sampler.h	/^    uint*     predecessors;$/;"	m	class:CSA::WeightedSampler
+prefixDoubling	misc/utils.cpp	/^prefixDoubling(short_pair* pairs, uint* keys, std::vector<ss_range>& unsorted, uint n, uint threads, uint total, uint h)$/;"	f	namespace:CSA
+prefixTripling	misc/utils.cpp	/^prefixTripling(skew_pair* pairs, uint* keys, std::vector<ss_range>& unsorted, uint n, uint threads, uint total, uint h)$/;"	f	namespace:CSA
+print	misc/parameters.cpp	/^Parameters::print() const$/;"	f	class:CSA::Parameters
+printInfo	rlcsa.cpp	/^RLCSA::printInfo() const$/;"	f	class:CSA::RLCSA
+printPatterns	rlcsa_test.cpp	/^printPatterns(std::vector<Pattern>& patterns, const std::string& file_name, bool only_found)$/;"	f
+printUsage	rlcsa_grep.cpp	/^void printUsage()$/;"	f
+printUsage	rlcsa_test.cpp	/^printUsage()$/;"	f
+printUsage	sampler_test.cpp	/^printUsage()$/;"	f
+processRange	docarray.h	/^    processRange(pair_type range, std::vector<T>& result) const$/;"	f	class:CSA::DocArray
+processRun	rlcsa.cpp	/^RLCSA::processRun(pair_type run, usint* data, usint* offsets, bool* finished, PsiVector::Iterator** iters, bool steps) const$/;"	f	class:CSA::RLCSA
+promote_probability	adaptive_samples.h	/^    double    promote_probability;$/;"	m	class:CSA::AdaptiveSamples
+psi	rlcsa.h	/^    inline pair_type psi(usint index, usint max_length, PsiVector::Iterator** iters) const$/;"	f	class:CSA::RLCSA
+psi	rlcsa.h	/^    inline pair_type psi(usint sa_index, usint max_length) const$/;"	f	class:CSA::RLCSA
+psi	rlcsa.h	/^    inline usint psi(usint index, PsiVector::Iterator** iters) const$/;"	f	class:CSA::RLCSA
+psi	rlcsa.h	/^    inline usint psi(usint sa_index) const$/;"	f	class:CSA::RLCSA
+psiUnsafe	rlcsa.h	/^    inline usint psiUnsafe(usint index, usint c) const$/;"	f	class:CSA::RLCSA
+psiUnsafe	rlcsa.h	/^    inline usint psiUnsafe(usint index, usint c, PsiVector::Iterator& iter) const$/;"	f	class:CSA::RLCSA
+psiUnsafeNext	rlcsa.h	/^    inline usint psiUnsafeNext(usint c, PsiVector::Iterator& iter) const$/;"	f	class:CSA::RLCSA
+range	docarray.h	/^  pair_type range;$/;"	m	struct:CSA::STNode
+range	rlcsa_test.cpp	/^  pair_type range;$/;"	m	struct:Pattern	file:
+rank	bits/deltavector.cpp	/^DeltaVector::Iterator::rank(usint value, bool at_least)$/;"	f	class:CSA::DeltaVector::Iterator
+rank	bits/nibblevector.cpp	/^NibbleVector::Iterator::rank(usint value, bool at_least)$/;"	f	class:CSA::NibbleVector::Iterator
+rank	bits/rlevector.cpp	/^RLEVector::Iterator::rank(usint value, bool at_least)$/;"	f	class:CSA::RLEVector::Iterator
+rank	bits/succinctvector.cpp	/^SuccinctVector::Iterator::rank(usint value, bool at_least)$/;"	f	class:CSA::SuccinctVector::Iterator
+rank_index	bits/bitvector.h	/^    ReadBuffer*  rank_index;$/;"	m	class:CSA::BitVector
+rank_rate	bits/bitvector.h	/^    usint        rank_rate;$/;"	m	class:CSA::BitVector
+ranks	suffixarray.h	/^    usint* ranks; \/\/ Lexicographic ranks relative to a larger suffix array.$/;"	m	class:CSA::SuffixArray
+rate	sasamples.h	/^    usint rate, size, items;$/;"	m	class:CSA::SASamples
+ratio	rlcsa_test.cpp	/^  inline double ratio() const { return this->occ() \/ (double)(this->docc); }$/;"	f	struct:Pattern
+read	misc/parameters.cpp	/^Parameters::read(FILE* file)$/;"	f	class:CSA::Parameters
+read	misc/parameters.cpp	/^Parameters::read(std::ifstream& file)$/;"	f	class:CSA::Parameters
+read	misc/parameters.cpp	/^void Parameters::read(const std::string& file_name)$/;"	f	class:CSA::Parameters
+readArray	bits/bitvector.cpp	/^BitVector::readArray(FILE* file)$/;"	f	class:CSA::BitVector
+readArray	bits/bitvector.cpp	/^BitVector::readArray(std::ifstream& file)$/;"	f	class:CSA::BitVector
+readBWT	rlcsa.cpp	/^RLCSA::readBWT() const$/;"	f	class:CSA::RLCSA
+readBWT	rlcsa.cpp	/^RLCSA::readBWT(pair_type range) const$/;"	f	class:CSA::RLCSA
+readBit	bits/bitbuffer.h	/^    inline usint readBit()$/;"	f	class:CSA::ReadBuffer
+readBits	bits/bitbuffer.h	/^    inline usint readBits(usint count)$/;"	f	class:CSA::ReadBuffer
+readDeltaCode	bits/bitbuffer.h	/^    inline usint readDeltaCode()$/;"	f	class:CSA::ReadBuffer
+readDeltaCode	bits/bitbuffer.h	/^    inline usint readDeltaCode(usint limit)$/;"	f	class:CSA::ReadBuffer
+readFirstItem	bits/bitbuffer.h	/^    inline usint readFirstItem()$/;"	f	class:CSA::ReadBuffer
+readFrom	bits/multiarray.cpp	/^MultiArray::readFrom(FILE* file)$/;"	f	class:CSA::MultiArray
+readFrom	bits/multiarray.cpp	/^MultiArray::readFrom(std::ifstream& file)$/;"	f	class:CSA::MultiArray
+readHeader	bits/bitvector.cpp	/^BitVector::readHeader(FILE* file)$/;"	f	class:CSA::BitVector
+readHeader	bits/bitvector.cpp	/^BitVector::readHeader(std::ifstream& file)$/;"	f	class:CSA::BitVector
+readItem	bits/array.cpp	/^Array::Iterator::readItem(usint index)$/;"	f	class:CSA::Array::Iterator
+readItem	bits/bitbuffer.h	/^    inline usint readItem() { return this->nextItem(); }$/;"	f	class:CSA::ReadBuffer
+readItem	bits/bitbuffer.h	/^    inline usint readItem(usint item)$/;"	f	class:CSA::ReadBuffer
+readItem	bits/multiarray.cpp	/^DeltaMultiArray::Iterator::readItem(usint array, usint index)$/;"	f	class:CSA::DeltaMultiArray::Iterator
+readItem	bits/multiarray.cpp	/^FixedMultiArray::Iterator::readItem(usint array, usint index)$/;"	f	class:CSA::FixedMultiArray::Iterator
+readItemConst	bits/bitbuffer.h	/^    inline usint readItemConst(usint item) const$/;"	f	class:CSA::ReadBuffer
+readNibble	bits/bitbuffer.h	/^    inline usint readNibble()$/;"	f	class:CSA::ReadBuffer
+readNibbleCode	bits/bitbuffer.h	/^    inline usint readNibbleCode()$/;"	f	class:CSA::ReadBuffer
+readNibbleCode	bits/bitbuffer.h	/^    inline usint readNibbleCode(usint limit)$/;"	f	class:CSA::ReadBuffer
+readPizzaChili	misc/utils.cpp	/^readPizzaChili(std::ifstream& file, std::vector<std::string>& patterns)$/;"	f	namespace:CSA
+readRows	misc/utils.cpp	/^readRows(std::ifstream& file, std::vector<std::string>& rows, bool skipEmptyRows)$/;"	f	namespace:CSA
+readRules	docarray.cpp	/^DocArray::readRules(const std::string& name_prefix, bool print)$/;"	f	class:CSA::DocArray
+readTimer	misc/utils.cpp	/^readTimer()$/;"	f	namespace:CSA
+regular_samples	adaptive_samples.h	/^    SASamples*   regular_samples;$/;"	m	class:CSA::AdaptiveSamples
+remove	docarray.cpp	/^STNode::remove()$/;"	f	class:CSA::STNode
+removeDuplicates	misc/utils.h	/^removeDuplicates(std::vector<T>& vec, bool parallel = true)$/;"	f	namespace:CSA
+removeDuplicates	misc/utils.h	/^removeDuplicates(std::vector<T>* vec, bool parallel = true)$/;"	f	namespace:CSA
+report	adaptive_samples.cpp	/^AdaptiveSamples::report() const$/;"	f	class:CSA::AdaptiveSamples
+reportPositions	rlcsa.cpp	/^RLCSA::reportPositions(uchar* data, usint length, usint* positions) const$/;"	f	class:CSA::RLCSA
+reportSize	adaptive_samples.cpp	/^AdaptiveSamples::reportSize() const$/;"	f	class:CSA::AdaptiveSamples
+reportSize	alphabet.cpp	/^Alphabet::reportSize() const$/;"	f	class:CSA::Alphabet
+reportSize	bits/array.cpp	/^Array::reportSize() const$/;"	f	class:CSA::Array
+reportSize	bits/bitbuffer.cpp	/^ReadBuffer::reportSize() const$/;"	f	class:CSA::ReadBuffer
+reportSize	bits/bitbuffer.cpp	/^WriteBuffer::reportSize() const$/;"	f	class:CSA::WriteBuffer
+reportSize	bits/bitvector.cpp	/^BitVector::reportSize() const$/;"	f	class:CSA::BitVector
+reportSize	bits/deltavector.cpp	/^DeltaVector::reportSize() const$/;"	f	class:CSA::DeltaVector
+reportSize	bits/multiarray.cpp	/^DeltaMultiArray::reportSize() const$/;"	f	class:CSA::DeltaMultiArray
+reportSize	bits/multiarray.cpp	/^FixedMultiArray::reportSize() const$/;"	f	class:CSA::FixedMultiArray
+reportSize	bits/multiarray.cpp	/^MultiArray::reportSize() const$/;"	f	class:CSA::MultiArray
+reportSize	bits/nibblevector.cpp	/^NibbleVector::reportSize() const$/;"	f	class:CSA::NibbleVector
+reportSize	bits/rlevector.cpp	/^RLEVector::reportSize() const$/;"	f	class:CSA::RLEVector
+reportSize	bits/succinctvector.cpp	/^SuccinctVector::reportSize() const$/;"	f	class:CSA::SuccinctVector
+reportSize	docarray.cpp	/^DocArray::reportSize(bool print) const$/;"	f	class:CSA::DocArray
+reportSize	lcpsamples.cpp	/^LCPSamples::reportSize() const$/;"	f	class:CSA::LCPSamples
+reportSize	rlcsa.cpp	/^RLCSA::reportSize(bool print) const$/;"	f	class:CSA::RLCSA
+reportSize	sasamples.cpp	/^SASamples::reportSize() const$/;"	f	class:CSA::SASamples
+reportSize	suffixarray.cpp	/^SuffixArray::reportSize(bool print) const$/;"	f	class:CSA::SuffixArray
+reset	bits/bitbuffer.h	/^    inline void reset()$/;"	f	class:CSA::ReadBuffer
+reset	bits/bitbuffer.h	/^    inline void reset()$/;"	f	class:CSA::WriteBuffer
+reset	rlcsa_builder.cpp	/^RLCSABuilder::reset()$/;"	f	class:CSA::RLCSABuilder
+rlcsa	docarray.h	/^    const RLCSA&    rlcsa;$/;"	m	class:CSA::DocArray
+rule_borders	docarray.h	/^    SuccinctVector* rule_borders;$/;"	m	class:CSA::DocArray
+rules	docarray.h	/^    ReadBuffer*     rules;        \/\/ this->getNumberOfDocs() means all documents.$/;"	m	class:CSA::DocArray
+run	bits/bitvector.h	/^        usint      cur, val, run; \/\/ cur == 0 is the sample$/;"	m	class:CSA::BitVector::Iterator
+run	bits/nibblevector.h	/^    pair_type run;$/;"	m	class:CSA::NibbleEncoder
+run	bits/rlevector.h	/^    pair_type run;$/;"	m	class:CSA::RLEEncoder
+sa	suffixarray.h	/^    uint*  sa;$/;"	m	class:CSA::SuffixArray
+sa_samples	rlcsa.h	/^    SASamples* sa_samples;$/;"	m	class:CSA::RLCSA
+sample	bits/array.h	/^        usint block, sample, cur, block_items;$/;"	m	class:CSA::Array::Iterator
+sample	bits/bitvector.h	/^        pair_type  sample;$/;"	m	class:CSA::BitVector::Iterator
+sampleForIndex	bits/array.cpp	/^Array::Iterator::sampleForIndex(usint index)$/;"	f	class:CSA::Array::Iterator
+sampleForIndex	bits/bitvector.cpp	/^BitVector::Iterator::sampleForIndex(usint index)$/;"	f	class:CSA::BitVector::Iterator
+sampleForValue	bits/bitvector.cpp	/^BitVector::Iterator::sampleForValue(usint value)$/;"	f	class:CSA::BitVector::Iterator
+sampleLCP	rlcsa.cpp	/^RLCSA::sampleLCP(usint sample_rate, pair_type*& sampled_values, bool report) const$/;"	f	class:CSA::RLCSA
+sample_blocks	bits/array.h	/^    std::list<usint*> sample_blocks;$/;"	m	class:CSA::ArrayEncoder
+sample_blocks	bits/bitvector.h	/^    std::list<usint*> sample_blocks;$/;"	m	class:CSA::VectorEncoder
+sample_rate	rlcsa.h	/^    usint sample_rate;$/;"	m	class:CSA::RLCSA
+sample_rate	rlcsa_builder.h	/^    usint sample_rate;$/;"	m	class:CSA::RLCSABuilder
+sample_rate	sampler.h	/^    uint sample_rate;$/;"	m	class:CSA::SemiGreedySampler
+sample_type	adaptive_samples.h	/^    typedef std::pair<key_type, key_type> sample_type;$/;"	t	class:CSA::AdaptiveSamples
+samples	adaptive_samples.h	/^    sample_type* samples;$/;"	m	class:CSA::AdaptiveSamples
+samples	bits/array.h	/^        ReadBuffer buffer, samples;$/;"	m	class:CSA::Array::Iterator
+samples	bits/array.h	/^    ReadBuffer*    samples;$/;"	m	class:CSA::Array
+samples	bits/array.h	/^    usint*            samples;$/;"	m	class:CSA::ArrayEncoder
+samples	bits/bitvector.h	/^        ReadBuffer buffer, samples;$/;"	m	class:CSA::BitVector::Iterator
+samples	bits/bitvector.h	/^    ReadBuffer*  samples;$/;"	m	class:CSA::BitVector
+samples	bits/bitvector.h	/^    usint*            samples;$/;"	m	class:CSA::VectorEncoder
+samples	sampler.h	/^    pair_type* samples;$/;"	m	class:CSA::Sampler
+samples	sasamples.h	/^    ReadBuffer* samples;$/;"	m	class:CSA::SASamples
+samples_in_superblock	bits/array.h	/^    usint             samples_in_superblock, current_samples;$/;"	m	class:CSA::ArrayEncoder
+samples_in_superblock	bits/bitvector.h	/^    usint             samples_in_superblock, current_samples;$/;"	m	class:CSA::VectorEncoder
+search_time	rlcsa_builder.h	/^    double search_time;$/;"	m	class:CSA::RLCSABuilder
+second	misc/utils.h	/^  T second;$/;"	m	struct:CSA::GenericTriple
+secondaryHash	adaptive_samples.cpp	/^AdaptiveSamples::secondaryHash(key_type key)$/;"	f	class:CSA::AdaptiveSamples
+select	bits/deltavector.cpp	/^DeltaVector::Iterator::select(usint index)$/;"	f	class:CSA::DeltaVector::Iterator
+select	bits/nibblevector.cpp	/^NibbleVector::Iterator::select(usint index)$/;"	f	class:CSA::NibbleVector::Iterator
+select	bits/rlevector.cpp	/^RLEVector::Iterator::select(usint index)$/;"	f	class:CSA::RLEVector::Iterator
+select	bits/succinctvector.cpp	/^SuccinctVector::Iterator::select(usint index)$/;"	f	class:CSA::SuccinctVector::Iterator
+selectNext	bits/deltavector.cpp	/^DeltaVector::Iterator::selectNext()$/;"	f	class:CSA::DeltaVector::Iterator
+selectNext	bits/nibblevector.cpp	/^NibbleVector::Iterator::selectNext()$/;"	f	class:CSA::NibbleVector::Iterator
+selectNext	bits/rlevector.cpp	/^RLEVector::Iterator::selectNext()$/;"	f	class:CSA::RLEVector::Iterator
+selectNext	bits/succinctvector.cpp	/^SuccinctVector::Iterator::selectNext()$/;"	f	class:CSA::SuccinctVector::Iterator
+selectNextRun	bits/deltavector.cpp	/^DeltaVector::Iterator::selectNextRun(usint max_length)$/;"	f	class:CSA::DeltaVector::Iterator
+selectNextRun	bits/nibblevector.cpp	/^NibbleVector::Iterator::selectNextRun(usint max_length)$/;"	f	class:CSA::NibbleVector::Iterator
+selectNextRun	bits/rlevector.cpp	/^RLEVector::Iterator::selectNextRun(usint max_length)$/;"	f	class:CSA::RLEVector::Iterator
+selectNextRun	bits/succinctvector.cpp	/^SuccinctVector::Iterator::selectNextRun(usint max_length)$/;"	f	class:CSA::SuccinctVector::Iterator
+selectRun	bits/deltavector.cpp	/^DeltaVector::Iterator::selectRun(usint index, usint max_length)$/;"	f	class:CSA::DeltaVector::Iterator
+selectRun	bits/nibblevector.cpp	/^NibbleVector::Iterator::selectRun(usint index, usint max_length)$/;"	f	class:CSA::NibbleVector::Iterator
+selectRun	bits/rlevector.cpp	/^RLEVector::Iterator::selectRun(usint index, usint max_length)$/;"	f	class:CSA::RLEVector::Iterator
+selectRun	bits/succinctvector.cpp	/^SuccinctVector::Iterator::selectRun(usint index, usint max_length)$/;"	f	class:CSA::SuccinctVector::Iterator
+select_index	bits/bitvector.h	/^    ReadBuffer*  select_index;$/;"	m	class:CSA::BitVector
+select_rate	bits/bitvector.h	/^    usint        select_rate;$/;"	m	class:CSA::BitVector
+sequences	suffixarray.h	/^    uint   sequences;$/;"	m	class:CSA::SuffixArray
+sequentialSort	misc/utils.h	/^sequentialSort(Iterator first, Iterator last, const Compare& comp)$/;"	f	namespace:CSA
+sequentialSort	misc/utils.h	/^void sequentialSort(Iterator first, Iterator last)$/;"	f	namespace:CSA
+set	misc/parameters.cpp	/^Parameters::set(const parameter_type& param)$/;"	f	class:CSA::Parameters
+set	misc/parameters.cpp	/^Parameters::set(const std::string& key, usint value)$/;"	f	class:CSA::Parameters
+setBit	bits/bitbuffer.h	/^    inline void setBit(usint index)$/;"	f	class:CSA::WriteBuffer
+setBit	bits/deltavector.cpp	/^DeltaEncoder::setBit(usint value)$/;"	f	class:CSA::DeltaEncoder
+setBit	bits/nibblevector.cpp	/^NibbleEncoder::setBit(usint value)$/;"	f	class:CSA::NibbleEncoder
+setBit	bits/rlevector.cpp	/^RLEEncoder::setBit(usint value)$/;"	f	class:CSA::RLEEncoder
+setBit	bits/succinctvector.cpp	/^SuccinctEncoder::setBit(usint value)$/;"	f	class:CSA::SuccinctEncoder
+setEnd	bits/multiarray.cpp	/^MultiArray::Iterator::setEnd(usint array, usint index)$/;"	f	class:CSA::MultiArray::Iterator
+setFirstBit	bits/bitvector.cpp	/^VectorEncoder::setFirstBit(usint value)$/;"	f	class:CSA::VectorEncoder
+setNext	docarray.cpp	/^STNode::setNext()$/;"	f	class:CSA::STNode
+setRLCSA	rlcsa_builder.cpp	/^RLCSABuilder::setRLCSA(RLCSA* new_index)$/;"	f	class:CSA::RLCSABuilder
+setRanks	misc/utils.cpp	/^setRanks(T* pairs, uint* keys, uint n, std::vector<ss_range>& unsorted, uint threads, uint chunk)$/;"	f	namespace:CSA
+setRun	bits/deltavector.cpp	/^DeltaEncoder::setRun(usint start, usint len)$/;"	f	class:CSA::DeltaEncoder
+setRun	bits/nibblevector.cpp	/^NibbleEncoder::setRun(usint start, usint len)$/;"	f	class:CSA::NibbleEncoder
+setRun	bits/rlevector.cpp	/^RLEEncoder::setRun(usint start, usint len)$/;"	f	class:CSA::RLEEncoder
+setRun	bits/succinctvector.cpp	/^SuccinctEncoder::setRun(usint start, usint len)$/;"	f	class:CSA::SuccinctEncoder
+short_pair	misc/utils.h	/^typedef std::pair<uint, uint> short_pair;$/;"	t	namespace:CSA
+sibling	docarray.h	/^  STNode*   sibling;$/;"	m	struct:CSA::STNode
+simpleSuffixSort	misc/utils.cpp	/^simpleSuffixSort(const uchar* sequence, uint n, uint sequences, uint threads)$/;"	f	namespace:CSA
+simpleSuffixSort	misc/utils.cpp	/^simpleSuffixSort(const usint* sequence, uint n, uint threads)$/;"	f	namespace:CSA
+simpleSuffixSort	misc/utils.cpp	/^simpleSuffixSort(short_pair* pairs, uint n, uint threads)$/;"	f	namespace:CSA
+sint	misc/definitions.h	/^typedef signed long   sint;$/;"	t	namespace:CSA
+size	adaptive_samples.h	/^    usint        size, items;$/;"	m	class:CSA::AdaptiveSamples
+size	alphabet.h	/^    usint size;$/;"	m	class:CSA::Alphabet
+size	bits/bitbuffer.h	/^    usint size, item_bits, items;$/;"	m	class:CSA::ReadBuffer
+size	bits/bitbuffer.h	/^    usint size, item_bits, items;$/;"	m	class:CSA::WriteBuffer
+size	bits/bitvector.h	/^    usint size, items, blocks;$/;"	m	class:CSA::VectorEncoder
+size	bits/bitvector.h	/^    usint size, items;$/;"	m	class:CSA::BitVector
+size	lcpsamples.h	/^    usint size, items;$/;"	m	class:CSA::LCPSamples
+size	sampler.h	/^    uint size, status;$/;"	m	class:CSA::Sampler
+size	sasamples.h	/^    usint rate, size, items;$/;"	m	class:CSA::SASamples
+skew_comparator	misc/utils.cpp	/^} skew_comparator;$/;"	m	namespace:CSA	typeref:struct:CSA::SSSkewComparator	file:
+skew_pair	misc/utils.cpp	/^typedef std::pair<uint, usint> skew_pair;$/;"	t	namespace:CSA	file:
+skipBits	bits/bitbuffer.h	/^    inline void skipBits(usint count)$/;"	f	class:CSA::ReadBuffer
+skipBits	bits/bitbuffer.h	/^    inline void skipBits(usint count)$/;"	f	class:CSA::WriteBuffer
+skipItem	bits/bitbuffer.h	/^    inline void skipItem()$/;"	f	class:CSA::ReadBuffer
+skipItem	bits/bitbuffer.h	/^    inline void skipItem()$/;"	f	class:CSA::WriteBuffer
+sort_time	rlcsa_builder.h	/^    double sort_time;$/;"	m	class:CSA::RLCSABuilder
+ss_range	misc/utils.cpp	/^typedef std::pair<uint, uint> ss_range;$/;"	t	namespace:CSA	file:
+start	utils/sort_wikipedia.cpp	/^  char* start;$/;"	m	struct:Document	file:
+status	bits/multiarray.h	/^    status_type   status;$/;"	m	class:CSA::MultiArray
+status	sampler.h	/^    uint size, status;$/;"	m	class:CSA::Sampler
+status_type	bits/multiarray.h	/^    enum status_type { error, writable, ok };$/;"	g	class:CSA::MultiArray
+steps	rlcsa_test.cpp	/^  usint steps;$/;"	m	struct:Pattern	file:
+stop	utils/sort_wikipedia.cpp	/^  char* stop;$/;"	m	struct:Document	file:
+storeThisSet	docarray.cpp	/^STNode::storeThisSet()$/;"	f	class:CSA::STNode
+stored_documents	docarray.h	/^  usint     stored_documents;$/;"	m	struct:CSA::STNode
+string_depth	docarray.h	/^  uint      string_depth;$/;"	m	struct:CSA::STNode
+strip	bits/bitvector.cpp	/^BitVector::strip()$/;"	f	class:CSA::BitVector
+strip	bits/succinctvector.h	/^    void strip() {}$/;"	f	class:CSA::SuccinctVector
+strip	rlcsa.cpp	/^RLCSA::strip()$/;"	f	class:CSA::RLCSA
+strip	sasamples.cpp	/^SASamples::strip()$/;"	f	class:CSA::SASamples
+sum	adaptive_samples.h	/^    usint     window_size, pos, sum;$/;"	m	class:CSA::AdaptiveSamples
+sum_type	sampler.h	/^typedef usint sum_type;$/;"	t	namespace:CSA
+superblock_bytes	bits/array.h	/^    usint block_size, superblock_bytes;$/;"	m	class:CSA::ArrayEncoder
+superblock_bytes	bits/bitvector.h	/^    usint block_size, superblock_bytes;$/;"	m	class:CSA::VectorEncoder
+support_display	rlcsa.h	/^    bool  support_locate, support_display;$/;"	m	class:CSA::RLCSA
+support_locate	rlcsa.h	/^    bool  support_locate, support_display;$/;"	m	class:CSA::RLCSA
+supportsDisplay	adaptive_samples.h	/^    inline bool supportsDisplay() const { return this->half_greedy; }$/;"	f	class:CSA::AdaptiveSamples
+supportsDisplay	rlcsa.h	/^    inline bool supportsDisplay() const { return this->support_display; }$/;"	f	class:CSA::RLCSA
+supportsDisplay	sasamples.h	/^    inline bool supportsDisplay() const { return (this->inverse_samples != 0); }$/;"	f	class:CSA::SASamples
+supportsLocate	adaptive_samples.h	/^    inline bool supportsLocate() const { return true; }$/;"	f	class:CSA::AdaptiveSamples
+supportsLocate	rlcsa.h	/^    inline bool supportsLocate() const { return this->support_locate; }$/;"	f	class:CSA::RLCSA
+supportsLocate	sasamples.h	/^    inline bool supportsLocate() const { return (this->samples != 0); }$/;"	f	class:CSA::SASamples
+testDocarray	document_graph.cpp	/^testDocarray(const std::string& base_name)$/;"	f
+text_chars	alphabet.h	/^    usint text_chars[CHARS];  \/\/ which characters are present in the text$/;"	m	class:CSA::Alphabet
+text_start	adaptive_samples.h	/^    key_type text_start;$/;"	m	class:CSA::AdaptiveSamples
+third	misc/utils.h	/^  T third;$/;"	m	struct:CSA::GenericTriple
+threads	rlcsa_builder.h	/^    usint threads;$/;"	m	class:CSA::RLCSABuilder
+totalDocc	rlcsa_test.cpp	/^totalDocc(const std::vector<Pattern>& patterns)$/;"	f
+totalFound	rlcsa_test.cpp	/^totalFound(const std::vector<Pattern>& patterns)$/;"	f
+totalOcc	rlcsa_test.cpp	/^totalOcc(const std::vector<Pattern>& patterns)$/;"	f
+totalSize	rlcsa_test.cpp	/^totalSize(const std::vector<Pattern>& patterns)$/;"	f
+totalSteps	rlcsa_test.cpp	/^totalSteps(const std::vector<Pattern>& patterns)$/;"	f
+trySample	adaptive_samples.cpp	/^AdaptiveSamples::trySample(sample_type sample, usint offset)$/;"	f	class:CSA::AdaptiveSamples
+uchar	misc/definitions.h	/^typedef unsigned char uchar;$/;"	t	namespace:CSA
+unsetBit	bits/bitbuffer.h	/^    inline void unsetBit(usint index)$/;"	f	class:CSA::WriteBuffer
+use_candidates	adaptive_samples.h	/^    bool      use_candidates, half_greedy;$/;"	m	class:CSA::AdaptiveSamples
+use_psi	sampler.h	/^    bool      use_psi;$/;"	m	class:CSA::WeightedSampler
+use_rle	bits/nibblevector.h	/^        bool use_rle;$/;"	m	class:CSA::NibbleVector::Iterator
+use_small_blocks	bits/bitvector.h	/^    bool  use_small_blocks;$/;"	m	class:CSA::VectorEncoder
+usesRLE	docarray.h	/^    inline bool usesRLE() const { return this->uses_rle; }$/;"	f	class:CSA::DocArray
+uses_rle	docarray.h	/^    bool ok, has_grammar, uses_rle;$/;"	m	class:CSA::DocArray
+usint	misc/definitions.h	/^typedef unsigned long usint;$/;"	t	namespace:CSA
+val	bits/bitvector.h	/^        usint      cur, val, run; \/\/ cur == 0 is the sample$/;"	m	class:CSA::BitVector::Iterator
+valueAfter	bits/deltavector.cpp	/^DeltaVector::Iterator::valueAfter(usint value)$/;"	f	class:CSA::DeltaVector::Iterator
+valueAfter	bits/nibblevector.cpp	/^NibbleVector::Iterator::valueAfter(usint value)$/;"	f	class:CSA::NibbleVector::Iterator
+valueAfter	bits/rlevector.cpp	/^RLEVector::Iterator::valueAfter(usint value)$/;"	f	class:CSA::RLEVector::Iterator
+valueAfter	bits/succinctvector.cpp	/^SuccinctVector::Iterator::valueAfter(usint value)$/;"	f	class:CSA::SuccinctVector::Iterator
+valueBefore	bits/deltavector.cpp	/^DeltaVector::Iterator::valueBefore(usint value)$/;"	f	class:CSA::DeltaVector::Iterator
+valueBefore	bits/nibblevector.cpp	/^NibbleVector::Iterator::valueBefore(usint value)$/;"	f	class:CSA::NibbleVector::Iterator
+valueBefore	bits/rlevector.cpp	/^RLEVector::Iterator::valueBefore(usint value)$/;"	f	class:CSA::RLEVector::Iterator
+valueBefore	bits/succinctvector.cpp	/^SuccinctVector::Iterator::valueBefore(usint value)$/;"	f	class:CSA::SuccinctVector::Iterator
+valueLoop	bits/nibblevector.cpp	/^NibbleVector::Iterator::valueLoop(usint value)$/;"	f	class:CSA::NibbleVector::Iterator
+valueLoop	bits/rlevector.cpp	/^RLEVector::Iterator::valueLoop(usint value)$/;"	f	class:CSA::RLEVector::Iterator
+values	lcpsamples.h	/^    Array*     values;$/;"	m	class:CSA::LCPSamples
+verifyTree	docarray.cpp	/^STNode::verifyTree()$/;"	f	class:CSA::STNode
+weight	rlcsa_test.cpp	/^  weight_type weight;$/;"	m	struct:Pattern	file:
+weight_type	sampler.h	/^typedef uint  weight_type;$/;"	t	namespace:CSA
+weighted	sasamples.h	/^    bool weighted;$/;"	m	class:CSA::SASamples
+weights	sampler.h	/^    std::pair<weight_type, uint>* weights;$/;"	m	class:CSA::SemiGreedySampler
+window	adaptive_samples.h	/^    key_type* window;$/;"	m	class:CSA::AdaptiveSamples
+window_size	adaptive_samples.h	/^    usint     window_size, pos, sum;$/;"	m	class:CSA::AdaptiveSamples
+writable	bits/multiarray.h	/^    enum status_type { error, writable, ok };$/;"	e	enum:CSA::MultiArray::status_type
+write	misc/parameters.cpp	/^Parameters::write(FILE* file) const$/;"	f	class:CSA::Parameters
+write	misc/parameters.cpp	/^Parameters::write(const std::string& file_name) const$/;"	f	class:CSA::Parameters
+write	misc/parameters.cpp	/^Parameters::write(std::ostream& stream) const$/;"	f	class:CSA::Parameters
+writeArray	bits/bitvector.cpp	/^BitVector::writeArray(FILE* file) const$/;"	f	class:CSA::BitVector
+writeArray	bits/bitvector.cpp	/^BitVector::writeArray(std::ofstream& file) const$/;"	f	class:CSA::BitVector
+writeBits	bits/bitbuffer.h	/^    inline void writeBits(usint value, usint count)$/;"	f	class:CSA::WriteBuffer
+writeBuffer	bits/bitbuffer.h	/^    inline void writeBuffer(FILE* file) const { this->writeTo(file); }$/;"	f	class:CSA::ReadBuffer
+writeBuffer	bits/bitbuffer.h	/^    inline void writeBuffer(FILE* file) const { this->writeTo(file); }$/;"	f	class:CSA::WriteBuffer
+writeBuffer	bits/bitbuffer.h	/^    inline void writeBuffer(std::ofstream& file) const { this->writeTo(file); }$/;"	f	class:CSA::ReadBuffer
+writeBuffer	bits/bitbuffer.h	/^    inline void writeBuffer(std::ofstream& file) const { this->writeTo(file); }$/;"	f	class:CSA::WriteBuffer
+writeDeltaCode	bits/bitbuffer.h	/^    inline bool writeDeltaCode(usint value)$/;"	f	class:CSA::WriteBuffer
+writeDeltaCodeDirect	bits/bitbuffer.h	/^    inline void writeDeltaCodeDirect(usint value)$/;"	f	class:CSA::WriteBuffer
+writeDeltaCodeFast	bits/bitbuffer.h	/^    inline void writeDeltaCodeFast(usint value)$/;"	f	class:CSA::WriteBuffer
+writeHeader	bits/bitvector.cpp	/^BitVector::writeHeader(FILE* file) const$/;"	f	class:CSA::BitVector
+writeHeader	bits/bitvector.cpp	/^BitVector::writeHeader(std::ofstream& file) const$/;"	f	class:CSA::BitVector
+writeItem	bits/array.cpp	/^ArrayEncoder::writeItem(usint value)$/;"	f	class:CSA::ArrayEncoder
+writeItem	bits/bitbuffer.h	/^    inline void writeItem(usint item)$/;"	f	class:CSA::WriteBuffer
+writeItem	bits/multiarray.cpp	/^DeltaMultiArray::writeItem(usint item)$/;"	f	class:CSA::DeltaMultiArray
+writeItem	bits/multiarray.cpp	/^FixedMultiArray::writeItem(usint item)$/;"	f	class:CSA::FixedMultiArray
+writeNibble	bits/bitbuffer.h	/^    inline void writeNibble(usint value)$/;"	f	class:CSA::WriteBuffer
+writeNibbleCode	bits/bitbuffer.h	/^    inline void writeNibbleCode(usint value)$/;"	f	class:CSA::WriteBuffer
+writeTo	alphabet.cpp	/^Alphabet::writeTo(FILE* file) const$/;"	f	class:CSA::Alphabet
+writeTo	alphabet.cpp	/^Alphabet::writeTo(std::ofstream& file) const$/;"	f	class:CSA::Alphabet
+writeTo	bits/array.cpp	/^Array::writeTo(FILE* file) const$/;"	f	class:CSA::Array
+writeTo	bits/array.cpp	/^Array::writeTo(std::ofstream& file) const$/;"	f	class:CSA::Array
+writeTo	bits/bitbuffer.cpp	/^ReadBuffer::writeTo(FILE* file) const$/;"	f	class:CSA::ReadBuffer
+writeTo	bits/bitbuffer.cpp	/^ReadBuffer::writeTo(std::ofstream& file) const$/;"	f	class:CSA::ReadBuffer
+writeTo	bits/bitbuffer.cpp	/^WriteBuffer::writeTo(FILE* file) const$/;"	f	class:CSA::WriteBuffer
+writeTo	bits/bitbuffer.cpp	/^WriteBuffer::writeTo(std::ofstream& file) const$/;"	f	class:CSA::WriteBuffer
+writeTo	bits/bitvector.cpp	/^BitVector::writeTo(FILE* file) const$/;"	f	class:CSA::BitVector
+writeTo	bits/bitvector.cpp	/^BitVector::writeTo(std::ofstream& file) const$/;"	f	class:CSA::BitVector
+writeTo	bits/multiarray.cpp	/^DeltaMultiArray::writeTo(FILE* file) const$/;"	f	class:CSA::DeltaMultiArray
+writeTo	bits/multiarray.cpp	/^DeltaMultiArray::writeTo(std::ofstream& file) const$/;"	f	class:CSA::DeltaMultiArray
+writeTo	bits/multiarray.cpp	/^FixedMultiArray::writeTo(FILE* file) const$/;"	f	class:CSA::FixedMultiArray
+writeTo	bits/multiarray.cpp	/^FixedMultiArray::writeTo(std::ofstream& file) const$/;"	f	class:CSA::FixedMultiArray
+writeTo	bits/multiarray.cpp	/^MultiArray::writeTo(FILE* file) const$/;"	f	class:CSA::MultiArray
+writeTo	bits/multiarray.cpp	/^MultiArray::writeTo(std::ofstream& file) const$/;"	f	class:CSA::MultiArray
+writeTo	bits/succinctvector.cpp	/^SuccinctVector::writeTo(FILE* file) const$/;"	f	class:CSA::SuccinctVector
+writeTo	bits/succinctvector.cpp	/^SuccinctVector::writeTo(std::ofstream& file) const$/;"	f	class:CSA::SuccinctVector
+writeTo	docarray.cpp	/^DocArray::writeTo(const std::string& base_name) const$/;"	f	class:CSA::DocArray
+writeTo	lcpsamples.cpp	/^LCPSamples::writeTo(FILE* sample_file) const$/;"	f	class:CSA::LCPSamples
+writeTo	lcpsamples.cpp	/^LCPSamples::writeTo(std::ofstream& sample_file) const$/;"	f	class:CSA::LCPSamples
+writeTo	rlcsa.cpp	/^RLCSA::writeTo(const std::string& base_name) const$/;"	f	class:CSA::RLCSA
+writeTo	sampler.cpp	/^Sampler::writeTo(const std::string& base_name) const$/;"	f	class:CSA::Sampler
+writeTo	sasamples.cpp	/^SASamples::writeTo(FILE* sample_file) const$/;"	f	class:CSA::SASamples
+writeTo	sasamples.cpp	/^SASamples::writeTo(std::ofstream& sample_file) const$/;"	f	class:CSA::SASamples
+writeTo	suffixarray.cpp	/^SuffixArray::writeTo(const std::string& base_name, bool write_data) const$/;"	f	class:CSA::SuffixArray
+~AdaptiveSamples	adaptive_samples.cpp	/^AdaptiveSamples::~AdaptiveSamples()$/;"	f	class:CSA::AdaptiveSamples
+~Alphabet	alphabet.h	/^    ~Alphabet() {}$/;"	f	class:CSA::Alphabet
+~Array	bits/array.cpp	/^Array::~Array()$/;"	f	class:CSA::Array
+~ArrayEncoder	bits/array.cpp	/^ArrayEncoder::~ArrayEncoder()$/;"	f	class:CSA::ArrayEncoder
+~BitVector	bits/bitvector.cpp	/^BitVector::~BitVector()$/;"	f	class:CSA::BitVector
+~DeltaEncoder	bits/deltavector.cpp	/^DeltaEncoder::~DeltaEncoder()$/;"	f	class:CSA::DeltaEncoder
+~DeltaMultiArray	bits/multiarray.cpp	/^DeltaMultiArray::~DeltaMultiArray()$/;"	f	class:CSA::DeltaMultiArray
+~DeltaVector	bits/deltavector.cpp	/^DeltaVector::~DeltaVector()$/;"	f	class:CSA::DeltaVector
+~DocArray	docarray.cpp	/^DocArray::~DocArray()$/;"	f	class:CSA::DocArray
+~FixedMultiArray	bits/multiarray.cpp	/^FixedMultiArray::~FixedMultiArray()$/;"	f	class:CSA::FixedMultiArray
+~Iterator	bits/array.cpp	/^Array::Iterator::~Iterator()$/;"	f	class:CSA::Array::Iterator
+~Iterator	bits/bitvector.cpp	/^BitVector::Iterator::~Iterator()$/;"	f	class:CSA::BitVector::Iterator
+~Iterator	bits/deltavector.cpp	/^DeltaVector::Iterator::~Iterator()$/;"	f	class:CSA::DeltaVector::Iterator
+~Iterator	bits/multiarray.cpp	/^DeltaMultiArray::Iterator::~Iterator()$/;"	f	class:CSA::DeltaMultiArray::Iterator
+~Iterator	bits/multiarray.cpp	/^FixedMultiArray::Iterator::~Iterator()$/;"	f	class:CSA::FixedMultiArray::Iterator
+~Iterator	bits/multiarray.cpp	/^MultiArray::Iterator::~Iterator()$/;"	f	class:CSA::MultiArray::Iterator
+~Iterator	bits/nibblevector.cpp	/^NibbleVector::Iterator::~Iterator()$/;"	f	class:CSA::NibbleVector::Iterator
+~Iterator	bits/rlevector.cpp	/^RLEVector::Iterator::~Iterator()$/;"	f	class:CSA::RLEVector::Iterator
+~Iterator	bits/succinctvector.cpp	/^SuccinctVector::Iterator::~Iterator()$/;"	f	class:CSA::SuccinctVector::Iterator
+~LCPSamples	lcpsamples.cpp	/^LCPSamples::~LCPSamples()$/;"	f	class:CSA::LCPSamples
+~MultiArray	bits/multiarray.cpp	/^MultiArray::~MultiArray()$/;"	f	class:CSA::MultiArray
+~NibbleEncoder	bits/nibblevector.cpp	/^NibbleEncoder::~NibbleEncoder()$/;"	f	class:CSA::NibbleEncoder
+~NibbleVector	bits/nibblevector.cpp	/^NibbleVector::~NibbleVector()$/;"	f	class:CSA::NibbleVector
+~Parameters	misc/parameters.h	/^    ~Parameters() {};$/;"	f	class:CSA::Parameters
+~RLCSA	rlcsa.cpp	/^RLCSA::~RLCSA()$/;"	f	class:CSA::RLCSA
+~RLCSABuilder	rlcsa_builder.cpp	/^RLCSABuilder::~RLCSABuilder()$/;"	f	class:CSA::RLCSABuilder
+~RLEEncoder	bits/rlevector.cpp	/^RLEEncoder::~RLEEncoder()$/;"	f	class:CSA::RLEEncoder
+~RLEVector	bits/rlevector.cpp	/^RLEVector::~RLEVector()$/;"	f	class:CSA::RLEVector
+~ReadBuffer	bits/bitbuffer.cpp	/^ReadBuffer::~ReadBuffer()$/;"	f	class:CSA::ReadBuffer
+~SASamples	sasamples.cpp	/^SASamples::~SASamples()$/;"	f	class:CSA::SASamples
+~STNode	docarray.cpp	/^STNode::~STNode()$/;"	f	class:CSA::STNode
+~Sampler	sampler.cpp	/^Sampler::~Sampler()$/;"	f	class:CSA::Sampler
+~SemiGreedySampler	sampler.cpp	/^SemiGreedySampler::~SemiGreedySampler()$/;"	f	class:CSA::SemiGreedySampler
+~SuccinctEncoder	bits/succinctvector.cpp	/^SuccinctEncoder::~SuccinctEncoder()$/;"	f	class:CSA::SuccinctEncoder
+~SuccinctVector	bits/succinctvector.cpp	/^SuccinctVector::~SuccinctVector()$/;"	f	class:CSA::SuccinctVector
+~SuffixArray	suffixarray.cpp	/^SuffixArray::~SuffixArray()$/;"	f	class:CSA::SuffixArray
+~VectorEncoder	bits/bitvector.cpp	/^VectorEncoder::~VectorEncoder()$/;"	f	class:CSA::VectorEncoder
+~WeightedSampler	sampler.cpp	/^WeightedSampler::~WeightedSampler()$/;"	f	class:CSA::WeightedSampler
+~WriteBuffer	bits/bitbuffer.cpp	/^WriteBuffer::~WriteBuffer()$/;"	f	class:CSA::WriteBuffer
