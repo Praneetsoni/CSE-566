@@ -15,21 +15,20 @@ VECTOR_FLAGS = $(PSI_FLAGS) $(LCP_FLAGS) $(SA_FLAGS)
 # LCP_FLAGS = -DSUCCINCT_LCP_VECTOR
 # SA_FLAGS = -DSUCCINCT_SA_VECTOR
 
-CXXFLAGS = -Wall -O3 -g $(SIZE_FLAGS) $(PARALLEL_FLAGS) $(VECTOR_FLAGS)
-OBJS = rlcsa.o rlcsa_builder.o sasamples.o alphabet.o compress.o\
+CXXFLAGS = -Wall -O2 -g $(SIZE_FLAGS) $(PARALLEL_FLAGS) $(VECTOR_FLAGS)
+OBJS = rlcsa.o rlcsa_builder.o sasamples.o alphabet.o main.o\
 lcpsamples.o sampler.o suffixarray.o adaptive_samples.o docarray.o \
 bits/array.o bits/bitbuffer.o bits/multiarray.o bits/bitvector.o bits/deltavector.o \
 bits/rlevector.o bits/nibblevector.o bits/succinctvector.o misc/parameters.o misc/utils.o
 
-PROGRAMS = rlcsa_test compress lcp_test parallel_build build_rlcsa build_sa locate_test \
+PROGRAMS = rlcsa_test main lcp_test parallel_build build_rlcsa build_sa locate_test \
 display_test document_graph read_bwt extract_sequence rlcsa_grep build_plcp sample_lcp \
 sampler_test ss_test utils/extract_text utils/convert_patterns utils/split_text \
 utils/sort_wikipedia utils/genpatterns
 
 VPATH = bits:misc:utils
 
-
-default: parallel_build build_rlcsa compress
+default: parallel_build build_rlcsa rlcsa_test sampler_test display_test document_graph main
 
 
 rlcsa.a: $(OBJS)
@@ -38,8 +37,8 @@ rlcsa.a: $(OBJS)
 depend:
 	g++ -MM *.cpp bits/*.cpp misc/*.cpp utils/*.cpp > dependencies.mk
 
-compress: compress.o rlcsa.a
-	$(CXX) $(CXXFLAGS) -o compress $^
+main:	main.o rlcsa.a
+	$(CXX) $(CXXFLAGS) -o main main.o rlcsa.a
 	
 rlcsa_test: rlcsa_test.o rlcsa.a
 	$(CXX) $(CXXFLAGS) -o rlcsa_test rlcsa_test.o rlcsa.a
